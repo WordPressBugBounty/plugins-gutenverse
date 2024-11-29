@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 2.1.2\n"
+"Project-Id-Version: Gutenverse 2.1.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-15T06:38:50+00:00\n"
+"POT-Creation-Date: 2024-11-29T02:56:59+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
@@ -59,8 +59,8 @@ msgid "Post Title"
 msgstr ""
 
 #: includes/class-api.php:103
-#: lib/framework/helper.php:1131
-#: lib/framework/helper.php:1150
+#: lib/framework/helper.php:1142
+#: lib/framework/helper.php:1161
 msgid "Forbidden Access"
 msgstr ""
 
@@ -2190,6 +2190,10 @@ msgid "Close Drawer on Click"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Enable Overlay"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Menu Height"
 msgstr ""
 
@@ -2223,6 +2227,10 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Indicator Item"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Indicator Size"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2291,6 +2299,30 @@ msgid "Menu"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "You need to enable the overlay first in the \"Mobile Menu\" panel to use this setting!"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Overlay Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Overlay Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Overlay Pointer Event"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "This option will blur background and anything behind this element"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Overlay Blur"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Mobile Menu"
 msgstr ""
 
@@ -2316,6 +2348,10 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Mobile Menu Logo"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Overlay Style"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2380,10 +2416,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Wait Time (ms)"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Overlay Background"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2745,10 +2777,6 @@ msgid "Most Comment"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Overlay Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Hover Typography"
 msgstr ""
 
@@ -2861,6 +2889,18 @@ msgid "Reply Padding"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Container Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Container Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Container Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Comment Background Color"
 msgstr ""
 
@@ -2877,12 +2917,40 @@ msgid "Show Comment Form"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Enable Suffix"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Main Comment Suffix"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Reply Comment Suffix"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Heading Typography"
 msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "Heading Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Suffix Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Suffix Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Suffix Margin"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -3635,10 +3703,6 @@ msgid "Name HTML tag"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Overlay Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Overlay Content Position"
 msgstr ""
 
@@ -3656,6 +3720,42 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Description"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Social Settings"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Positions"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Job Positions"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Job Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description Positions"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Social Icons Positions"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Social Icons Opacity"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -3740,6 +3840,30 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Team Description"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Background Disabled Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Box Shadow"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -6947,21 +7071,6 @@ msgstr ""
 #: block/buttons/block.json
 msgctxt "block keyword"
 msgid "link"
-msgstr ""
-
-#: block/countdown/block.json
-msgctxt "block title"
-msgid "Countdown"
-msgstr ""
-
-#: block/countdown/block.json
-msgctxt "block description"
-msgid "Create a countdown block"
-msgstr ""
-
-#: block/countdown/block.json
-msgctxt "block keyword"
-msgid "countdown"
 msgstr ""
 
 #: block/divider/block.json
