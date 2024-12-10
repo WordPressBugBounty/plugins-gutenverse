@@ -4,7 +4,7 @@ Contributors: Jegstudio
 Tags: blocks, editor, gutenberg, gutenberg blocks, page builder
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 2.1.3
+Stable tag: 2.1.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -298,6 +298,22 @@ Spectra - WordPress Gutenberg Blocks, Otter – Gutenberg Blocks – Page Builde
 
 
 == Changelog ==
+= 2.1.4 =
+##### New
+* Add new taxonomy list block
+* Add new search title block
+
+##### Improvements
+* Improve Blocks Loading inside editor
+* Add option in dashboard to enable/disable lazy load blocks in editor
+* Add image filter option for Image Box block
+* Add Post order in Post Block
+
+##### Bug Fixes
+* Fix issue when editing button text when there is active link
+* Fix sticky & vertical align issue
+* Fix post block pagination style
+
 = 2.1.3 =
 ##### Improvements
 * Add box shadow and overlay option for nav menu

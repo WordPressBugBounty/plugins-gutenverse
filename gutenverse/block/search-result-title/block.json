@@ -1,49 +1,27 @@
 {
 	"apiVersion": 2,
-	"name": "gutenverse/video",
-	"title": "Video",
-	"description": "Embed a video you want to share.",
-	"category": "gutenverse-element",
+	"name": "gutenverse/search-result-title",
+	"class_callback": "\\Gutenverse\\Block\\Search_Result_Title",
+	"title": "Search Result Title",
+	"description": "Show the search result title.",
+	"category": "gutenverse-post",
 	"allowCopyStyle": true,
 	"attributes": {
 		"elementId": {
 			"type": "string"
 		},
-		"mouseMoveEffect": {
-			"type": "object",
-			"copyStyle": true
-		},
-		"videoType": {
+		"backendArchiveId": {
 			"type": "string"
 		},
-		"videoSrc": {
-			"type": "string"
-		},
-		"start": {
-			"type": "integer"
-		},
-		"end": {
-			"type": "integer"
-		},
-		"width": {
-			"type": "object",
-			"copyStyle": true
-		},
-		"height": {
-			"type": "object",
-			"copyStyle": true
-		},
-		"captionType": {
+		"htmlTag": {
 			"type": "string",
-			"default": "none"
+			"default": "h1"
 		},
-		"captionOriginal": {
-			"type": "string"
+		"staticText": {
+			"type" : "string",
+			"default": "Search Result For:"
 		},
-		"captionCustom": {
-			"type": "string"
-		},
-		"captionSpace": {
+		"alignment": {
 			"type": "object",
 			"copyStyle": true
 		},
@@ -51,21 +29,41 @@
 			"type": "object",
 			"copyStyle": true
 		},
-		"captionColor": {
+		"color": {
 			"type": "object",
 			"copyStyle": true
 		},
-		"hideControls": {
-			"type": "boolean"
+		"textShadow": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
 		},
-		"playing": {
-			"type": "boolean"
+		"colorHover": {
+			"type": "object",
+			"copyStyle": true
 		},
-		"loop": {
-			"type": "boolean"
+		"textShadowHover": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
 		},
-		"muted": {
-			"type": "boolean"
+		"searchTextColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"searchTextShadow": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
+		},
+		"searchTextColorHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"searchTextShadowHover": {
+			"type": "object",
+			"default": {},
+			"copyStyle": true
 		},
 		"background": {
 			"type": "object",
@@ -170,11 +168,6 @@
 			"type": "object",
 			"copyStyle": true
 		},
-		"advanceAnimation": {
-			"type": "object",
-			"default": {},
-			"copyStyle": true
-		},
 		"transform": {
 			"type": "object",
 			"copyStyle": true
@@ -183,19 +176,21 @@
 			"type": "object",
 			"copyStyle": true
 		},
-		"condition": {
+        "condition": {
 			"type": "object",
 			"default": {}
 		}
 	},
+	"usesContext": [
+		"archiveId",
+		"archiveType",
+		"queryId"
+	],
 	"supports": {
 		"className": false
 	},
 	"keywords": [
-		"video",
-		"youtube",
-		"twitch",
-		"vimeo",
-		"dailymotion"
+		"archive",
+		"title"
 	]
 }
