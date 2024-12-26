@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 2.1.5\n"
+"Project-Id-Version: Gutenverse 2.1.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-12T02:17:57+00:00\n"
+"POT-Creation-Date: 2024-12-26T05:11:00+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
@@ -45,12 +45,12 @@ msgstr ""
 msgid "Post Author"
 msgstr ""
 
-#: includes/block/class-post-block.php:361
+#: includes/block/class-post-block.php:362
 msgid "edit post"
 msgstr ""
 
 #: includes/block/class-post-date.php:39
-#: lib/framework/includes/block/class-post-abstract.php:159
+#: lib/framework/includes/block/class-post-abstract.php:161
 msgid " - Updated on "
 msgstr ""
 
@@ -246,12 +246,12 @@ msgstr ""
 msgid "Enter"
 msgstr ""
 
-#: lib/framework/includes/block/class-post-abstract.php:728
+#: lib/framework/includes/block/class-post-abstract.php:742
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Prev"
 msgstr ""
 
-#: lib/framework/includes/block/class-post-abstract.php:763
+#: lib/framework/includes/block/class-post-abstract.php:777
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Next"
 msgstr ""
@@ -351,44 +351,44 @@ msgstr ""
 msgid "Google"
 msgstr ""
 
-#: lib/framework/includes/class-fonts.php:1643
-#: lib/framework/includes/class-fonts.php:1666
+#: lib/framework/includes/class-fonts.php:1908
+#: lib/framework/includes/class-fonts.php:1931
 #: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "Normal"
 msgstr ""
 
-#: lib/framework/includes/class-fonts.php:1644
+#: lib/framework/includes/class-fonts.php:1909
 #: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "Bold"
 msgstr ""
 
-#: lib/framework/includes/class-fonts.php:1667
+#: lib/framework/includes/class-fonts.php:1932
 #: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "Italic"
 msgstr ""
 
-#: lib/framework/includes/class-fonts.php:1680
+#: lib/framework/includes/class-fonts.php:1945
 #: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "Uppercase"
 msgstr ""
 
-#: lib/framework/includes/class-fonts.php:1681
+#: lib/framework/includes/class-fonts.php:1946
 #: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "Capitalize"
 msgstr ""
 
-#: lib/framework/includes/class-fonts.php:1682
+#: lib/framework/includes/class-fonts.php:1947
 #: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "Lowercase"
 msgstr ""
 
-#: lib/framework/includes/class-fonts.php:1683
+#: lib/framework/includes/class-fonts.php:1948
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/core.js:2
@@ -730,6 +730,10 @@ msgid "Focus Heading Typography"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Focus Text Stroke"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Show Line"
 msgstr ""
 
@@ -757,6 +761,10 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Main Heading Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Main Text Stroke"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -864,6 +872,10 @@ msgid "Text Shadow"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Text Stroke"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Setting"
 msgstr ""
 
@@ -900,6 +912,10 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Hover Text Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Text Stroke"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2493,6 +2509,91 @@ msgid "This block doesn't render on frontend. Click to show popup."
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Active Behavior"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Row Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Reverse Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Link"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Icon Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Set as Current Item"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Alignment"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Sub Title Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Sub Title Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Text Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Sub Title Text Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Border"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Text Space"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Link Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Text Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Author Type"
 msgstr ""
 
@@ -2590,6 +2691,10 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Custom Format"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Set Inline Excerpt"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2698,6 +2803,10 @@ msgid "Date Icon Spacing"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Set Inline Post Meta"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Inherit Query from Template"
 msgstr ""
 
@@ -2719,6 +2828,10 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Include Post"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Exclude Current Post"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2830,6 +2943,10 @@ msgid "Pagination Style"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Avatar Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Button Typography"
 msgstr ""
 
@@ -2934,12 +3051,48 @@ msgid "Reply Comment Suffix"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Enable Comment Title"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Post Title "
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Comments Count"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Heading Typography"
 msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "Heading Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Container Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Count Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Count Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Post Title Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Post Title Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2963,19 +3116,6 @@ msgid "Form Comment Link"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Link Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Link Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Link Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "List Comment Link"
 msgstr ""
 
@@ -2988,19 +3128,11 @@ msgid "User Name Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "User Name Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Date Typography"
 msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Date Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Date Margin"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -3254,7 +3386,31 @@ msgid "Post Tag"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Content Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "One Line"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Block"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Display Content Inline"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Separator"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "This option only show if Content Type : \"Block\" with Display Content Inline \"On\""
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Term Item"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -3368,7 +3524,19 @@ msgid "Search Text Shadow"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Search Text Stroke"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Hover Search Text color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Search Text Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Search Text Stroke"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -3774,10 +3942,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Show Divider"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Alignment"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -5586,6 +5750,10 @@ msgid "Background Type"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
+msgid "Use Featured Image"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
 msgid "Background Image"
 msgstr ""
 
@@ -7282,6 +7450,7 @@ msgid "Showcase your images in grid or masonry layout, with a popup and zoom opt
 msgstr ""
 
 #: block/gallery/block.json
+#: block/portfolio-gallery/block.json
 msgctxt "block keyword"
 msgid "gallery"
 msgstr ""
@@ -7289,6 +7458,7 @@ msgstr ""
 #: block/gallery/block.json
 #: block/image-box/block.json
 #: block/image/block.json
+#: block/portfolio-gallery/block.json
 #: block/post-featured-image/block.json
 msgctxt "block keyword"
 msgid "image"
@@ -7491,6 +7661,26 @@ msgstr ""
 #: block/popup-container/block.json
 msgctxt "block description"
 msgid "Build Popup using gutenverse popup container."
+msgstr ""
+
+#: block/portfolio-gallery/block.json
+msgctxt "block title"
+msgid "Portfolio Gallery"
+msgstr ""
+
+#: block/portfolio-gallery/block.json
+msgctxt "block description"
+msgid "Showcase your portfolio in image tab gallery"
+msgstr ""
+
+#: block/portfolio-gallery/block.json
+msgctxt "block keyword"
+msgid "tab"
+msgstr ""
+
+#: block/portfolio-gallery/block.json
+msgctxt "block keyword"
+msgid "portofolio"
 msgstr ""
 
 #: block/post-author/block.json
