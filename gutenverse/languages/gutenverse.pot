@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 2.1.6\n"
+"Project-Id-Version: Gutenverse 2.1.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-26T05:11:00+00:00\n"
+"POT-Creation-Date: 2024-12-27T01:44:03+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
@@ -872,6 +872,7 @@ msgid "Text Shadow"
 msgstr ""
 
 #: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Text Stroke"
 msgstr ""
 
@@ -6305,6 +6306,14 @@ msgstr ""
 
 #: lib/framework/assets/js/core.js:2
 msgid "Space"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Stroke Color"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Stroke Width"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
