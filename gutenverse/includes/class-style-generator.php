@@ -16,7 +16,9 @@ use Gutenverse\Style\Animated_Text;
 use Gutenverse\Style\Archive_Title;
 use Gutenverse\Style\Button;
 use Gutenverse\Style\Buttons;
+use Gutenverse\Style\Countdown;
 use Gutenverse\Style\Divider;
+use Gutenverse\Style\Feature_List;
 use Gutenverse\Style\Fun_Fact;
 use Gutenverse\Style\Gallery;
 use Gutenverse\Style\Google_Maps;
@@ -118,6 +120,9 @@ class Style_Generator {
 				break;
 			case 'gutenverse/logo-slider':
 				$instance = new Logo_Slider( $attrs );
+				break;
+			case 'gutenverse/feature-list':
+				$instance = new Feature_List( $attrs );
 				break;
 			case 'gutenverse/fun-fact':
 				$instance = new Fun_Fact( $attrs );
@@ -235,6 +240,9 @@ class Style_Generator {
 				break;
 			case 'gutenverse/search':
 				$instance = new Search( $attrs );
+				break;
+			case 'gutenverse/countdown':
+				$instance = new Countdown( $attrs );
 				break;
 			case 'gutenverse/search-result-title':
 				$instance = new Search_Result_Title( $attrs );

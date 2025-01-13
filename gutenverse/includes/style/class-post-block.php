@@ -373,6 +373,33 @@ class Post_Block extends Style_Abstract {
 			);
 		}
 
+		if ( isset( $this->attrs['categoryVerticalAlign'] ) ) {
+			if ( isset( $this->attrs['postblockType'] ) ) {
+				if ( 'type-5' === $this->attrs['postblockType'] ) {
+					$this->inject_style(
+						array(
+							'selector'       => ".{$this->element_id} .guten-postblock .guten-block-container .guten-postblock-content",
+							'property'       => function () {
+								return 'height: 100%; display: grid; grid-template-rows: 1fr auto;';
+							},
+							'value'          => $this->attrs['categoryVerticalAlign'],
+							'device_control' => true,
+						)
+					);
+					$this->inject_style(
+						array(
+							'selector'       => ".{$this->element_id} .guten-postblock .guten-block-container .guten-postblock-content .post-category-container",
+							'property'       => function ( $value ) {
+								return "align-self: {$value}";
+							},
+							'value'          => $this->attrs['categoryVerticalAlign'],
+							'device_control' => true,
+						)
+					);
+				}
+			}
+		}
+
 		if ( isset( $this->attrs['categoryColor'] ) ) {
 			$this->inject_style(
 				array(
@@ -1047,7 +1074,7 @@ class Post_Block extends Style_Abstract {
 				array(
 					'selector'       => ".{$this->element_id} .guten-postblock.guten-pagination-number .guten_block_nav .btn-pagination:not(.next):not(.prev), .{$this->element_id} .guten-postblock.guten-pagination-number .guten_block_nav span",
 					'property'       => function ( $value ) {
-						return "line-height: {$value}px;";
+						return "height: {$value}px;";
 					},
 					'value'          => $this->attrs['paginationHeight'],
 					'device_control' => true,
@@ -1061,7 +1088,7 @@ class Post_Block extends Style_Abstract {
 					'selector'       => ".{$this->element_id} .guten-postblock.guten-pagination-prevnext .guten_block_nav .btn-pagination.next, .{$this->element_id} .guten-postblock.guten-pagination-prevnext .guten_block_nav .btn-pagination.prev,
                         .{$this->element_id} .guten-postblock.guten-pagination-number .guten_block_nav .btn-pagination.next, .{$this->element_id} .guten-postblock.guten-pagination-number .guten_block_nav .btn-pagination.prev",
 					'property'       => function ( $value ) {
-						return "line-height: {$value}px;";
+						return "height: {$value}px;";
 					},
 					'value'          => $this->attrs['paginationNavigationHeight'],
 					'device_control' => true,

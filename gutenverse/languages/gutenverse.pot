@@ -1,22 +1,22 @@
-# Copyright (C) 2024 Jegstudio
+# Copyright (C) 2025 Jegstudio
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 2.1.7\n"
+"Project-Id-Version: Gutenverse 2.1.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-27T01:44:03+00:00\n"
+"POT-Creation-Date: 2025-01-13T02:03:31+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
 
 #. Plugin Name of the plugin
-#: lib/framework/includes/class-dashboard.php:327
 #: lib/framework/includes/class-dashboard.php:328
+#: lib/framework/includes/class-dashboard.php:329
 #: lib/framework/includes/class-frontend-toolbar.php:124
 #: assets/js/dashboard.js:1
 #: assets/js/wizard.js:2
@@ -45,7 +45,7 @@ msgstr ""
 msgid "Post Author"
 msgstr ""
 
-#: includes/block/class-post-block.php:362
+#: includes/block/class-post-block.php:366
 msgid "edit post"
 msgstr ""
 
@@ -90,7 +90,7 @@ msgstr ""
 
 #: includes/class-banner.php:149
 #: includes/class-gutenverse.php:264
-#: lib/framework/includes/class-frontend-toolbar.php:275
+#: lib/framework/includes/class-frontend-toolbar.php:276
 msgid "Got Question?"
 msgstr ""
 
@@ -246,12 +246,12 @@ msgstr ""
 msgid "Enter"
 msgstr ""
 
-#: lib/framework/includes/block/class-post-abstract.php:742
+#: lib/framework/includes/block/class-post-abstract.php:743
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Prev"
 msgstr ""
 
-#: lib/framework/includes/block/class-post-abstract.php:777
+#: lib/framework/includes/block/class-post-abstract.php:778
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Next"
 msgstr ""
@@ -266,74 +266,74 @@ msgstr ""
 msgid "Gutenverse Wrapper"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:270
-#: lib/framework/includes/class-dashboard.php:272
+#: lib/framework/includes/class-dashboard.php:271
 #: lib/framework/includes/class-dashboard.php:273
+#: lib/framework/includes/class-dashboard.php:274
 msgid "unknown"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:275
+#: lib/framework/includes/class-dashboard.php:276
 #: lib/framework/assets/js/dashboard.js:2
 msgid "by"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:346
 #: lib/framework/includes/class-dashboard.php:347
-#: lib/framework/includes/class-frontend-toolbar.php:193
+#: lib/framework/includes/class-dashboard.php:348
+#: lib/framework/includes/class-frontend-toolbar.php:194
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Dashboard"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:356
 #: lib/framework/includes/class-dashboard.php:357
+#: lib/framework/includes/class-dashboard.php:358
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Ecosystem"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:367
 #: lib/framework/includes/class-dashboard.php:368
-#: lib/framework/includes/class-frontend-toolbar.php:211
+#: lib/framework/includes/class-dashboard.php:369
+#: lib/framework/includes/class-frontend-toolbar.php:212
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Theme List"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:378
 #: lib/framework/includes/class-dashboard.php:379
+#: lib/framework/includes/class-dashboard.php:380
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Blocks"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:388
 #: lib/framework/includes/class-dashboard.php:389
-#: lib/framework/includes/class-frontend-toolbar.php:220
+#: lib/framework/includes/class-dashboard.php:390
+#: lib/framework/includes/class-frontend-toolbar.php:221
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Settings"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:398
 #: lib/framework/includes/class-dashboard.php:399
-#: lib/framework/includes/class-frontend-toolbar.php:229
+#: lib/framework/includes/class-dashboard.php:400
+#: lib/framework/includes/class-frontend-toolbar.php:230
 #: lib/framework/assets/js/dashboard.js:2
 msgid "System Status"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:408
 #: lib/framework/includes/class-dashboard.php:409
-#: lib/framework/includes/class-frontend-toolbar.php:238
+#: lib/framework/includes/class-dashboard.php:410
+#: lib/framework/includes/class-frontend-toolbar.php:239
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Update Notice"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:419
 #: lib/framework/includes/class-dashboard.php:420
+#: lib/framework/includes/class-dashboard.php:421
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Upgrade to PRO"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:432
 #: lib/framework/includes/class-dashboard.php:433
+#: lib/framework/includes/class-dashboard.php:434
 msgid "Gutenverse Themes"
 msgstr ""
 
@@ -353,6 +353,7 @@ msgstr ""
 
 #: lib/framework/includes/class-fonts.php:1908
 #: lib/framework/includes/class-fonts.php:1931
+#: assets/js/blocks.js:2
 #: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "Normal"
@@ -399,47 +400,47 @@ msgstr ""
 msgid "Gutenverse Admin"
 msgstr ""
 
-#: lib/framework/includes/class-frontend-toolbar.php:168
+#: lib/framework/includes/class-frontend-toolbar.php:169
 msgid "Gutenverse PRO"
 msgstr ""
 
-#: lib/framework/includes/class-frontend-toolbar.php:202
+#: lib/framework/includes/class-frontend-toolbar.php:203
 msgid "Block List"
 msgstr ""
 
-#: lib/framework/includes/class-frontend-toolbar.php:249
+#: lib/framework/includes/class-frontend-toolbar.php:250
 msgid "Template Editor"
 msgstr ""
 
-#: lib/framework/includes/class-frontend-toolbar.php:257
+#: lib/framework/includes/class-frontend-toolbar.php:258
 msgid "All Template"
 msgstr ""
 
-#: lib/framework/includes/class-frontend-toolbar.php:266
+#: lib/framework/includes/class-frontend-toolbar.php:267
 msgid "Template Part"
 msgstr ""
 
-#: lib/framework/includes/class-frontend-toolbar.php:287
+#: lib/framework/includes/class-frontend-toolbar.php:288
 msgid "Rate Us ★★★★★"
 msgstr ""
 
-#: lib/framework/includes/class-frontend-toolbar.php:299
+#: lib/framework/includes/class-frontend-toolbar.php:300
 msgid "Help/Documentation"
 msgstr ""
 
-#: lib/framework/includes/class-frontend-toolbar.php:320
+#: lib/framework/includes/class-frontend-toolbar.php:321
 msgid "Not a Block Themes"
 msgstr ""
 
-#: lib/framework/includes/class-frontend-toolbar.php:339
+#: lib/framework/includes/class-frontend-toolbar.php:340
 msgid "Edit Template: "
 msgstr ""
 
-#: lib/framework/includes/class-frontend-toolbar.php:354
+#: lib/framework/includes/class-frontend-toolbar.php:355
 msgid "Included Template Part"
 msgstr ""
 
-#: lib/framework/includes/class-frontend-toolbar.php:364
+#: lib/framework/includes/class-frontend-toolbar.php:365
 msgid "Edit: "
 msgstr ""
 
@@ -661,6 +662,7 @@ msgid "Icon"
 msgstr ""
 
 #: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Title"
 msgstr ""
 
@@ -1067,6 +1069,183 @@ msgid "Buttons"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Due Date"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Days"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Label for Days"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Hours"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Label for Hours"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Minutes"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Label for Minutes"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Seconds"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Label for Seconds"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Separator"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Separator Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Solid"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Colon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Divider color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Set Divider Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Column"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Row Gap"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Label Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+msgid "Top"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+msgid "Bottom"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Label Spacing"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "One For All"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Digit & Label Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Digit color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Digit Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Label color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Label Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Background Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Border Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Box Shadow Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Margin & Padding Options"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Width & Height Options"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+msgid "Middle"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+msgid "Horizontal Align"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Expired Action"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Redirect to URL"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Custom Section"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Redirect Url"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Countdown Settings"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Countdown Expired"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Time Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Expired Section"
+msgstr ""
+
+#: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "Type"
 msgstr ""
@@ -1113,6 +1292,75 @@ msgid "Divider Content"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Link"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Set Lazy Load"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Wrapper Shape"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Connector"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "List Space"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Connector Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Connector Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Connector Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Wrapper Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Content Spacing"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon/Image Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Number Prefix"
 msgstr ""
 
@@ -1137,15 +1385,7 @@ msgid "Number Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Title Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Number Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Typography"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1181,10 +1421,6 @@ msgid "Hover Direction"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Type"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Select Icon"
 msgstr ""
 
@@ -1195,10 +1431,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Image Alt"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Set Lazy Load"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1224,11 +1456,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Icon Rotate"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-msgid "Top"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1268,10 +1495,6 @@ msgid "Animation Duration"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Column"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Grid"
 msgstr ""
 
@@ -1302,10 +1525,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Filter Name"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1342,10 +1561,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Disable Link"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Link"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1626,6 +1841,18 @@ msgid "Align Justify"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Text Overflow Wrap"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "If a word is longer than the container, choose whether to break it into a new line or not."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Break Word"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Advance Animation"
 msgstr ""
 
@@ -1646,15 +1873,7 @@ msgid "Description Margin"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Description Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Description Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Description Typography"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1712,10 +1931,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Container Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Style"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1785,11 +2000,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Solid"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
 msgid "Double"
 msgstr ""
 
@@ -1818,11 +2028,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Center"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-msgid "Bottom"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2123,6 +2328,7 @@ msgid "Fix Height"
 msgstr ""
 
 #: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Transition Duration"
 msgstr ""
 
@@ -2612,6 +2818,10 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Author data will be fetched automatically based on the current post/loop."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Category Vertical Align"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -3142,10 +3352,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Reply Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Label Typography"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -4050,10 +4256,6 @@ msgid "Image Spacing"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Background Hover"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Team Details"
 msgstr ""
 
@@ -4227,6 +4429,10 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Quote Icon Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Radius"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -4870,10 +5076,6 @@ msgid "Column Width"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
-msgid "Horizontal Align"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
 msgid "Column Order"
 msgstr ""
 
@@ -5041,10 +5243,6 @@ msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
 msgid "Stretch"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Middle"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
@@ -5743,7 +5941,19 @@ msgid "Input in miliseconds (ms). Later will be converted into second (s)"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
+msgid "Desktop"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Phone"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
 msgid "Image & Color"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Slide Show"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
@@ -5945,11 +6155,75 @@ msgid "Background Fallback"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
-msgid "Desktop"
+msgid "Infinite Loop"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
-msgid "Phone"
+msgid "Image Display Duration"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Transition"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "fade"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Slide Right"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Slide Left"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Slide Top"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Slide Down"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Image Display Duration value will be used if Transition Duration value is higher"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Background Size"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Background Repeat"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Repeat Y"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Repeat X"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Round"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Ken Burns Effect"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Direction"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "In"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Out"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
@@ -6301,11 +6575,11 @@ msgid "Scale"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
-msgid "Round"
+msgid "Space"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
-msgid "Space"
+msgid "Pick Date"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
@@ -7418,6 +7692,30 @@ msgctxt "block keyword"
 msgid "separator"
 msgstr ""
 
+#: block/feature-list/block.json
+msgctxt "block title"
+msgid "Feature List"
+msgstr ""
+
+#: block/feature-list/block.json
+#: block/icon-box/block.json
+msgctxt "block description"
+msgid "Add an information section with icon box."
+msgstr ""
+
+#: block/feature-list/block.json
+msgctxt "block keyword"
+msgid "feature"
+msgstr ""
+
+#: block/feature-list/block.json
+#: block/icon-list/block.json
+#: block/post-list/block.json
+#: block/taxonomy-list/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr ""
+
 #: block/fun-fact/block.json
 msgctxt "block title"
 msgid "Fun Fact"
@@ -7524,11 +7822,6 @@ msgid "Icon Box"
 msgstr ""
 
 #: block/icon-box/block.json
-msgctxt "block description"
-msgid "Add an information section with icon box."
-msgstr ""
-
-#: block/icon-box/block.json
 #: block/icon-list/block.json
 #: block/icon/block.json
 #: block/social-icon/block.json
@@ -7561,13 +7854,6 @@ msgstr ""
 #: block/icon-list/block.json
 msgctxt "block description"
 msgid "Create a list with icons"
-msgstr ""
-
-#: block/icon-list/block.json
-#: block/post-list/block.json
-#: block/taxonomy-list/block.json
-msgctxt "block keyword"
-msgid "list"
 msgstr ""
 
 #: block/icon/block.json
