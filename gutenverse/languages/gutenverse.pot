@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 2.1.8\n"
+"Project-Id-Version: Gutenverse 2.1.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-01-13T02:03:31+00:00\n"
+"POT-Creation-Date: 2025-02-06T05:55:05+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
@@ -598,7 +598,16 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/blocks.js:2
+msgid "Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
 msgid "Border"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Background"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -629,11 +638,6 @@ msgid "Normal Icon Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-msgid "Background"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Icon Active Size"
 msgstr ""
 
@@ -643,10 +647,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Active Icon Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active Background"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1850,6 +1850,14 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Break Word"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Use Style in Link"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Applies heading block styling to links within text, overriding the default core link style."
 msgstr ""
 
 #: assets/js/blocks.js:2
