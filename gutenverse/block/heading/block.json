@@ -50,6 +50,26 @@
 			"type": "object",
 			"copyStyle": true
 		},
+		"containsAnchorTag" : {
+			"type" : "boolean",
+			"copyStyle": true
+		},
+		"linkColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"linkTypography": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"linkColorHover": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"linkTypographyHover": {
+			"type": "object",
+			"copyStyle": true
+		},
 		"textShadow": {
 			"type": "object",
 			"default": {},
@@ -123,10 +143,6 @@
 		"animation": {
 			"type": "object",
 			"default": {},
-			"copyStyle": true
-		},
-		"useStyleInLink" : {
-			"type": "boolean",
 			"copyStyle": true
 		},
 		"hideDesktop": {

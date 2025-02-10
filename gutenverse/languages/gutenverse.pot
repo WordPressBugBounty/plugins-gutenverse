@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 2.1.9\n"
+"Project-Id-Version: Gutenverse 2.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-02-06T05:55:05+00:00\n"
+"POT-Creation-Date: 2025-02-10T06:36:36+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
@@ -1853,11 +1853,20 @@ msgid "Break Word"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Use Style in Link"
+#: lib/framework/assets/js/core.js:2
+msgid "Link Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Applies heading block styling to links within text, overriding the default core link style."
+msgid "Link Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Color Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Typography Hover"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2788,16 +2797,7 @@ msgid "Link Border"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Link Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Icon Text Space"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Link Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
