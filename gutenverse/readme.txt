@@ -2,9 +2,9 @@
 
 Contributors: Jegstudio
 Tags: blocks, editor, gutenberg, gutenberg blocks, page builder
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 3.0.0
+Stable tag: 3.0.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -298,6 +298,40 @@ Spectra - WordPress Gutenberg Blocks, Otter – Gutenberg Blocks – Page Builde
 
 
 == Changelog ==
+= 3.0.1 =
+##### New & Improvemenets
+* update border control ui when clicked and filled
+
+##### Bug Fixes
+* fix social icons vertical align in editor
+* fix responsive style in editor - some block back to default style
+* fix search block error when input width only set on one device type
+* fix icon box that have class guten-data make the style broken
+* fix library section preview when theres block hides on desktop
+* fix border control UI
+* fix save state issue
+* fix icon box gradient background issue
+* fix flexible wrapper width and height issue
+* fix restores the previous range control for gradient
+* fix transform switch normal/hover
+* fix transform reset button
+* fix border color issue
+* fix issue library button disappear in editor
+* fix post term width in backend
+* fix library layout thumbnail height
+* fix post comment button
+* fix logo slider when setting height
+* fix the option use featured image is missing in background section and column
+* fix icon list vertical align & text indent
+* fix input global style
+* fix control with slider and unit
+* fix cursor when typing inside text control
+* fix featured background image not showing in frontend
+* fix nav menu submenu color
+* fix nav menu hover transition
+* fix post excerpt styling panel is missing on site editor
+* fix flexible wrapper animation effect
+
 = 3.0.0 =
 ##### New & Improvements
 * significantly improve editing experience inside the editor

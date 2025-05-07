@@ -133,6 +133,17 @@ class Icon_List extends Style_Abstract {
 					'device_control' => true,
 				)
 			);
+
+			$this->inject_style(
+				array(
+					'selector'       => ".{$this->element_id}:not(.inline-icon-list) > .guten-icon-list-item > a, .{$this->element_id} > .list-wrapper:not(.inline-icon-list) > .guten-icon-list-item > .list-divider",
+					'property'       => function ( $value ) {
+						return "justify-self: {$value};";
+					},
+					'value'          => $this->attrs['alignList'],
+					'device_control' => true,
+				)
+			);
 		}
 
 		if ( isset( $this->attrs['iconColor'] ) ) {
@@ -188,29 +199,16 @@ class Icon_List extends Style_Abstract {
 		}
 
 		if ( isset( $this->attrs['verticalAlign'] ) ) {
-			if ( ! isset( $this->attrs['displayInline'] ) || ! $this->attrs['displayInline'] ) {
-				$this->inject_style(
-					array(
-						'selector'       => ".{$this->element_id} .guten-icon-list-item a",
-						'property'       => function ( $value ) {
-							return "align-items: {$value}";
-						},
-						'value'          => $this->attrs['verticalAlign'],
-						'device_control' => false,
-					)
-				);
-			} else {
-				$this->inject_style(
-					array(
-						'selector'       => ".{$this->element_id} .guten-icon-list-item",
-						'property'       => function ( $value ) {
-							return "align-items: {$value}";
-						},
-						'value'          => $this->attrs['verticalAlign'],
-						'device_control' => false,
-					)
-				);
-			}
+			$this->inject_style(
+				array(
+					'selector'       => ".{$this->element_id} .list-wrapper .guten-icon-list-item a",
+					'property'       => function ( $value ) {
+						return "align-items: {$value}";
+					},
+					'value'          => $this->attrs['verticalAlign'],
+					'device_control' => false,
+				)
+			);
 		}
 
 		if ( isset( $this->attrs['textColorHover'] ) ) {
@@ -229,9 +227,9 @@ class Icon_List extends Style_Abstract {
 		if ( isset( $this->attrs['textIndent'] ) ) {
 			$this->inject_style(
 				array(
-					'selector'       => ".{$this->element_id}.guten-element .guten-icon-list-item .list-text",
+					'selector'       => ".{$this->element_id} .guten-icon-list-item a",
 					'property'       => function ( $value ) {
-						return "padding-left: {$value}px;";
+						return "gap: {$value}px;";
 					},
 					'value'          => $this->attrs['textIndent'],
 					'device_control' => true,
