@@ -4,7 +4,7 @@ Contributors: Jegstudio
 Tags: blocks, editor, gutenberg, gutenberg blocks, page builder
 Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 3.0.5
+Stable tag: 3.0.6
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -298,6 +298,31 @@ Spectra - WordPress Gutenberg Blocks, Otter – Gutenberg Blocks – Page Builde
 
 
 == Changelog ==
+= 3.0.6 =
+##### New & Improvemenets
+* new block: chart block
+* add px unit for line width and height for advance heading block
+* add filter on hover option for logo slider block
+* add number option for featured list icon
+* add option for icon position for fun fact block
+* add color option for icon in post meta for post block
+* add speed option for fun fact block
+* add responsive styling for divider in icon list block
+* add box shadow option for each socials element in social share block
+* add new rotating text for animated text block
+* add number option for icon type in feature list block
+* add filter styling in normal state for logo style
+* add input background color for search block
+* add “none” option for post author type
+* improve option for border styling for post comment block
+
+##### Bug Fixes
+* fix fun fact icon size in frontend
+* fix search container width issue in search block
+* fix icon box hover covered by overlay
+* fix icon box header margin
+* fix border color issue
+
 = 3.0.5 =
 ##### New & Improvemenets
 * add description in gallery lightbox popup
