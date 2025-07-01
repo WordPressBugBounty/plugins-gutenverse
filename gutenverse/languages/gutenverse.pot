@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 3.0.6\n"
+"Project-Id-Version: Gutenverse 3.0.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-06-16T08:42:21+00:00\n"
+"POT-Creation-Date: 2025-07-01T01:44:05+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
@@ -3679,6 +3679,10 @@ msgid "Left to Right"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Gradient Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Chart Alignment"
 msgstr ""
 
@@ -4522,6 +4526,20 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Hover Watermark Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Box Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+msgid "Minimum Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+msgid "Fit Screen"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -5627,14 +5645,6 @@ msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
 msgid "Wider"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Minimum Height"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Fit Screen"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
