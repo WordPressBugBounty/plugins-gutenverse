@@ -1,5 +1,5 @@
 {
-	"apiVersion": 2,
+	"apiVersion": 3,
 	"name": "gutenverse/gallery",
 	"title": "Gallery",
 	"description": "Showcase your images in grid or masonry layout, with a popup and zoom option.",
@@ -25,6 +25,13 @@
 			"type": "string",
 			"default": "fas fa-search-plus"
 		},
+		"zoomIconType": {
+			"type": "string",
+			"default": "icon"
+		},
+		"zoomIconSVG": {
+			"type": "string"
+		},
 		"zoomText": {
 			"type": "string"
 		},
@@ -32,7 +39,13 @@
 			"type": "string",
 			"default": "fas fa-link"
 		},
-
+		"linkIconType": {
+			"type": "string",
+			"default": "icon"
+		},
+		"linkIconSVG": {
+			"type": "string"
+		},
 		"linkText": {
 			"type": "string"
 		},
@@ -124,7 +137,7 @@
 			"type": "object",
 			"copyStyle": true
 		},
-		"selectionIconPadding":{
+		"selectionIconPadding": {
 			"type": "string",
 			"copyStyle": true,
 			"default": "all"
@@ -277,7 +290,6 @@
 			"type": "object",
 			"copyStyle": true
 		},
-
 		"itemCardTitleMargin": {
 			"type": "object",
 			"copyStyle": true
@@ -318,7 +330,7 @@
 			},
 			"copyStyle": true
 		},
-		"selectionPriceRatingPadding":{
+		"selectionPriceRatingPadding": {
 			"type": "string",
 			"copyStyle": true,
 			"default": "all"
@@ -351,35 +363,35 @@
 			"type": "object",
 			"copyStyle": true
 		},
-		"pricePositioningLeft":{
+		"pricePositioningLeft": {
 			"type": "object",
 			"copyStyle": true
 		},
-		"pricePositioningRight":{
+		"pricePositioningRight": {
 			"type": "object",
 			"copyStyle": true
 		},
-		"pricePositioningTop":{
+		"pricePositioningTop": {
 			"type": "object",
 			"copyStyle": true
 		},
-		"pricePositioningBottom":{
+		"pricePositioningBottom": {
 			"type": "object",
 			"copyStyle": true
 		},
-		"ratingPositioningLeft":{
+		"ratingPositioningLeft": {
 			"type": "object",
 			"copyStyle": true
 		},
-		"ratingPositioningRight":{
+		"ratingPositioningRight": {
 			"type": "object",
 			"copyStyle": true
 		},
-		"ratingPositioningTop":{
+		"ratingPositioningTop": {
 			"type": "object",
 			"copyStyle": true
 		},
-		"ratingPositioningBottom":{
+		"ratingPositioningBottom": {
 			"type": "object",
 			"copyStyle": true
 		},
@@ -444,6 +456,13 @@
 			"default": "No More Item"
 		},
 		"enableLoadIcon": {
+			"type": "string"
+		},
+		"enableLoadIconType": {
+			"type": "string",
+			"default": "icon"
+		},
+		"enableLoadIconSVG": {
 			"type": "string"
 		},
 		"enableLoadIconPosition": {
@@ -589,7 +608,15 @@
 		},
 		"filterSearchIcon": {
 			"type": "string",
-			"default": "fas fa-angle-down"
+			"default": "fas fa-angle-down",
+			"copyStyle": true
+		},
+		"filterSearchIconSVG": {
+			"type": "string"
+		},
+		"filterSearchIconType": {
+			"type": "string",
+			"default": "icon"
 		},
 		"filterSearchIconPosition": {
 			"type": "string",
@@ -828,7 +855,7 @@
 			"type": "object",
 			"default": {}
 		},
-		"iconWrapperMargin":{
+		"iconWrapperMargin": {
 			"type": "object",
 			"copyStyle": true
 		},
@@ -922,6 +949,11 @@
 			"type": "object",
 			"default": {},
 			"copyStyle": true
+		},
+		"titleHeadingType": {
+			"type": "string",
+			"default": "h5",
+			"copyStyle": true
 		}
 	},
 	"supports": {
@@ -930,7 +962,15 @@
 	},
 	"keywords": [
 		"gallery",
-		"image",
-		"carousel"
+		"images",
+		"carousel",
+		"grid",
+		"showcase"
+	],
+	"viewScript": [
+		"gutenverse-frontend-gallery-script"
+	],
+	"style": [
+		"gutenverse-frontend-gallery-style"
 	]
 }

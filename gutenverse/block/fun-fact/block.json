@@ -1,5 +1,5 @@
 {
-	"apiVersion": 2,
+	"apiVersion": 3,
 	"name": "gutenverse/fun-fact",
 	"title": "Fun Fact",
 	"description": "Create an interesting fact about your website or something you achieved.",
@@ -21,16 +21,16 @@
 			"type": "object",
 			"copyStyle": true,
 			"default": {
-				"Desktop":"top"
+				"Desktop": "top"
 			}
 		},
 		"topIconContent": {
-			"type":"boolean",
-			"default":true
+			"type": "boolean",
+			"default": true
 		},
 		"bottomIconContent": {
-			"type":"boolean",
-			"default":false
+			"type": "boolean",
+			"default": false
 		},
 		"contentDisplay": {
 			"type": "string",
@@ -39,6 +39,9 @@
 		"icon": {
 			"type": "string",
 			"default": "fas fa-grip-horizontal"
+		},
+		"iconSVG": {
+			"type": "string"
 		},
 		"iconColor": {
 			"type": "object",
@@ -106,7 +109,7 @@
 			"type": "integer",
 			"default": 150
 		},
-		"imageSizeResponsive":{
+		"imageSizeResponsive": {
 			"type": "object",
 			"migrate": {
 				"attr": "imageSizeResponsive",
@@ -124,6 +127,10 @@
 		},
 		"safeNumber": {
 			"type": "string",
+			"migrate": {
+				"attr": "number",
+				"type": "string"
+			},
 			"default": ""
 		},
 		"suffix": {
@@ -346,13 +353,33 @@
 			"type": "object",
 			"copyStyle": true
 		},
-		"lazyLoad":{
+		"lazyLoad": {
 			"type": "boolean",
+			"copyStyle": true
+		},
+		"prefixColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"suffixColor": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"prefixTypography": {
+			"type": "object",
+			"copyStyle": true
+		},
+		"suffixTypography": {
+			"type": "object",
 			"copyStyle": true
 		},
 		"condition": {
 			"type": "object",
 			"default": {}
+		},
+		"imageLoad": {
+			"type": "string",
+			"default": ""
 		}
 	},
 	"supports": {
@@ -363,6 +390,16 @@
 		"fun",
 		"fact",
 		"count",
-		"number"
+		"number",
+		"stats",
+		"statistic",
+		"data",
+		"info"
+	],
+	"viewScript": [
+		"gutenverse-frontend-fun-fact-script"
+	],
+	"style": [
+		"gutenverse-frontend-fun-fact-style"
 	]
 }

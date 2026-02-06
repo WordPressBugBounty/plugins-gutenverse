@@ -1,5 +1,5 @@
 {
-	"apiVersion": 2,
+	"apiVersion": 3,
 	"name": "gutenverse/search",
 	"title": "Search",
 	"description": "Gutenverse Search",
@@ -162,8 +162,8 @@
 			"type": "object",
 			"default": {
 				"Desktop": {
-					"point":"350",
-					"unit":"px"
+					"point": "350",
+					"unit": "px"
 				}
 			}
 		},
@@ -247,6 +247,13 @@
 			"type": "string",
 			"default": "gtn gtn-x-line"
 		},
+		"closeIconType": {
+			"type": "string",
+			"default": "icon"
+		},
+		"closeIconSVG": {
+			"type": "string"
+		},
 		"closeIconColor": {
 			"type": "object",
 			"copyStyle": true,
@@ -280,9 +287,10 @@
 		"className": false,
 		"anchor": true
 	},
-	"keywords": [
-		"search",
-		"gutenverse"
-	],
-	"example": {}
+	"keywords": ["search", "gutenverse"],
+	"example": {
+		"elementId": "guten-preview-search"
+	},
+	"viewScript": ["gutenverse-frontend-search-script"],
+	"style": ["gutenverse-frontend-search-style"]
 }
