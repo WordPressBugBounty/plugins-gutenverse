@@ -2,21 +2,21 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 3.4.6\n"
+"Project-Id-Version: Gutenverse 3.4.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-02-12T06:02:56+00:00\n"
+"POT-Creation-Date: 2026-02-24T07:49:08+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
 
 #. Plugin Name of the plugin
-#: lib/framework/includes/class-dashboard.php:902
-#: lib/framework/includes/class-dashboard.php:903
+#: lib/framework/includes/class-dashboard.php:914
+#: lib/framework/includes/class-dashboard.php:915
 #: lib/framework/includes/class-frontend-toolbar.php:121
 #: assets/js/dashboard.js:2
 #: assets/js/wizard.js:2
@@ -41,27 +41,27 @@ msgstr ""
 msgid "https://jegtheme.com/"
 msgstr ""
 
-#: includes/block/class-breadcrumb.php:121
+#: includes/block/class-breadcrumb.php:125
 msgid "Home"
 msgstr ""
 
-#: includes/block/class-breadcrumb.php:126
+#: includes/block/class-breadcrumb.php:130
 msgid "Page Not Found"
 msgstr ""
 
-#: includes/block/class-breadcrumb.php:129
+#: includes/block/class-breadcrumb.php:133
 msgid "Search"
 msgstr ""
 
-#: includes/block/class-breadcrumb.php:150
+#: includes/block/class-breadcrumb.php:154
 msgid "Author"
 msgstr ""
 
-#: includes/block/class-breadcrumb.php:165
+#: includes/block/class-breadcrumb.php:169
 msgid "Tag"
 msgstr ""
 
-#: includes/block/class-breadcrumb.php:205
+#: includes/block/class-breadcrumb.php:209
 #: assets/js/blocks.js:2
 msgid "Category"
 msgstr ""
@@ -204,17 +204,19 @@ msgid "Enter"
 msgstr ""
 
 #: lib/framework/includes/block/class-post-abstract.php:776
-#: lib/framework/includes/block/class-post-abstract.php:866
+#: lib/framework/includes/block/class-post-abstract.php:870
 msgid "Prev"
 msgstr ""
 
-#: lib/framework/includes/block/class-post-abstract.php:811
-#: lib/framework/includes/block/class-post-abstract.php:936
+#: lib/framework/includes/block/class-post-abstract.php:813
+#: lib/framework/includes/block/class-post-abstract.php:815
+#: lib/framework/includes/block/class-post-abstract.php:946
+#: lib/framework/includes/block/class-post-abstract.php:952
 msgid "Next"
 msgstr ""
 
-#: lib/framework/includes/class-api.php:1142
-#: lib/framework/includes/class-api.php:1295
+#: lib/framework/includes/class-api.php:1146
+#: lib/framework/includes/class-api.php:1299
 #: lib/framework/assets/js/components.js:2
 msgid "All"
 msgstr ""
@@ -234,33 +236,33 @@ msgstr ""
 msgid "by"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:923
-#: lib/framework/includes/class-dashboard.php:924
+#: lib/framework/includes/class-dashboard.php:935
+#: lib/framework/includes/class-dashboard.php:936
 #: lib/framework/includes/class-frontend-toolbar.php:219
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Dashboard"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:933
-#: lib/framework/includes/class-dashboard.php:934
+#: lib/framework/includes/class-dashboard.php:945
+#: lib/framework/includes/class-dashboard.php:946
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Ecosystem"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:943
-#: lib/framework/includes/class-dashboard.php:944
+#: lib/framework/includes/class-dashboard.php:955
+#: lib/framework/includes/class-dashboard.php:956
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Blocks"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:954
-#: lib/framework/includes/class-dashboard.php:955
+#: lib/framework/includes/class-dashboard.php:966
+#: lib/framework/includes/class-dashboard.php:967
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Theme List"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:965
-#: lib/framework/includes/class-dashboard.php:966
+#: lib/framework/includes/class-dashboard.php:977
+#: lib/framework/includes/class-dashboard.php:978
 #: lib/framework/includes/class-frontend-toolbar.php:237
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
@@ -268,22 +270,22 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:975
-#: lib/framework/includes/class-dashboard.php:976
+#: lib/framework/includes/class-dashboard.php:987
+#: lib/framework/includes/class-dashboard.php:988
 #: lib/framework/includes/class-frontend-toolbar.php:246
 #: lib/framework/assets/js/dashboard.js:2
 msgid "System Status"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:985
-#: lib/framework/includes/class-dashboard.php:986
+#: lib/framework/includes/class-dashboard.php:997
+#: lib/framework/includes/class-dashboard.php:998
 #: lib/framework/includes/class-frontend-toolbar.php:255
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Update Notice"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:996
-#: lib/framework/includes/class-dashboard.php:997
+#: lib/framework/includes/class-dashboard.php:1008
+#: lib/framework/includes/class-dashboard.php:1009
 #: lib/framework/includes/class-frontend-toolbar.php:198
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Upgrade to PRO"
@@ -1047,13 +1049,335 @@ msgid "Inside Site Editor"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Arrow Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Type"
+msgid "Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Background Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Background Disabled Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Box Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Above Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Below Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Star Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "As Header"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "As Footer"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Quote"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Rating"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Client Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Quote Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Rating Icon Full"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Rating Icon Half"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Testimonial List"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Name"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Client Picture"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Load"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Load"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Lazy Load"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Rating"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Designation"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Spacing Horizontal"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Spacing Vertical"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Dots Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Dots Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Dots Border Radius"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Dots Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Border Radius"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Name Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Designation Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Designation Spacing"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Quote Icon Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Override Quote Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+msgid "Top"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Left"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Name Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Name Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Designation Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Designation Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Quote Icon Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Quote Icon Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Radius"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+msgid "Bottom"
 msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Gap"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Setting"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Slider Setting"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Testimonial Item"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Client Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Rating Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Navigation Arrow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Navigation Dots"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Type"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1085,10 +1409,6 @@ msgid "Divider Icon"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Divider General"
 msgstr ""
 
@@ -1105,15 +1425,7 @@ msgid "SPACER"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Normal Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Normal Background Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1245,11 +1557,6 @@ msgid "Social Icon Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Background Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Background Gradient"
 msgstr ""
 
@@ -1310,27 +1617,11 @@ msgid "Image"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Image Load"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Normal Load"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Lazy Load"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Alt Type"
 msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Custom Caption"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Style"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1691,79 +1982,6 @@ msgid "Terms data will be fetched automatically based on the current post/loop."
 msgstr ""
 
 #: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Spacing Horizontal"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Spacing Vertical"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Dots Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Dots Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Dots Border Radius"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Dots Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active Border Radius"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Arrow Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Normal Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Normal Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Normal Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Background Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Client Logos"
 msgstr ""
 
@@ -1786,12 +2004,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Fix Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Height"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1824,10 +2036,6 @@ msgid "Logo Wrapper Margin"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Slider Setting"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Logo List"
 msgstr ""
 
@@ -1837,14 +2045,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Logo Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Navigation Arrow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Navigation Dots"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1918,20 +2118,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Label Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-msgid "Top"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-msgid "Bottom"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Left"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2436,10 +2622,6 @@ msgid "Hover Typography"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Content Setting"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Pagination"
 msgstr ""
 
@@ -2533,10 +2715,6 @@ msgid "Post Count"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Name"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Hide Empty Category"
 msgstr ""
 
@@ -2615,10 +2793,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Taxonomy Item Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Typography"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2719,19 +2893,11 @@ msgid "Star Style"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Rating"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Total"
 msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Content Gap"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Gap"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2793,10 +2959,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Menu Logo"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Set Lazy Load"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -4019,11 +4181,107 @@ msgid "Read More"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Comment"
+msgid "Post Meta"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Post Meta"
+msgid "Profile Picture"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Name HTML tag"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Overlay Content Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Job"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Social Settings"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Positions"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Job Positions"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Job Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description Positions"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Social Icons Positions"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Social Icons Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Social Icons"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Space"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Profile Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Profile Border Radius"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Rotate"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Spacing"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Team Details"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Job Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Social Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Profile Name"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Profile Job"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Team Description"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -4235,266 +4493,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Type/Paste Video URL Here"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disabled Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Background Disabled Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disabled Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disabled Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disabled Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disabled Box Shadow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Above Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Below Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Star Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "As Header"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "As Footer"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Quote"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Rating"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Client Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Quote Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Rating Icon Full"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Rating Icon Half"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Testimonial List"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Client Picture"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Designation"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Name Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Designation Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Comment Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Designation Spacing"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Quote Icon Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Override Quote Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Name Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Name Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Designation Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Designation Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Comment Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Comment Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Quote Icon Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Quote Icon Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Radius"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Testimonial Item"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Client Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Rating Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Profile Picture"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Name HTML tag"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Overlay Content Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Job"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Social Settings"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Positions"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Job Positions"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Job Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Description Positions"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Description Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Social Icons Positions"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Social Icons Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Social Icons"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Space"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Profile Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Profile Border Radius"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Rotate"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Spacing"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Team Details"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Job Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Social Hover"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Profile Name"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Profile Job"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Team Description"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -5067,11 +5065,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Link Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "SVG"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -6921,6 +6914,10 @@ msgstr ""
 
 #: lib/framework/assets/js/core.js:2
 msgid "SVG File"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "SVG"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
