@@ -2,21 +2,21 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 3.4.7\n"
+"Project-Id-Version: Gutenverse 3.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-02-24T07:49:08+00:00\n"
+"POT-Creation-Date: 2026-03-10T04:04:17+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
 
 #. Plugin Name of the plugin
-#: lib/framework/includes/class-dashboard.php:914
-#: lib/framework/includes/class-dashboard.php:915
+#: lib/framework/includes/class-dashboard.php:932
+#: lib/framework/includes/class-dashboard.php:933
 #: lib/framework/includes/class-frontend-toolbar.php:121
 #: assets/js/dashboard.js:2
 #: assets/js/wizard.js:2
@@ -105,10 +105,10 @@ msgstr ""
 msgid "Post Title"
 msgstr ""
 
-#: includes/class-api.php:105
-#: includes/class-api.php:155
-#: lib/framework/helper.php:1275
-#: lib/framework/helper.php:1294
+#: includes/class-api.php:106
+#: includes/class-api.php:156
+#: lib/framework/helper.php:1305
+#: lib/framework/helper.php:1324
 msgid "Forbidden Access"
 msgstr ""
 
@@ -187,11 +187,11 @@ msgid "Access denied"
 msgstr ""
 
 #. translators: 1: Time from now.
-#: lib/framework/helper.php:340
+#: lib/framework/helper.php:370
 msgid "%s ago"
 msgstr ""
 
-#: lib/framework/helper.php:751
+#: lib/framework/helper.php:781
 msgid "Menu item"
 msgstr ""
 
@@ -204,20 +204,19 @@ msgid "Enter"
 msgstr ""
 
 #: lib/framework/includes/block/class-post-abstract.php:776
-#: lib/framework/includes/block/class-post-abstract.php:870
+#: lib/framework/includes/block/class-post-abstract.php:866
 msgid "Prev"
 msgstr ""
 
-#: lib/framework/includes/block/class-post-abstract.php:813
-#: lib/framework/includes/block/class-post-abstract.php:815
-#: lib/framework/includes/block/class-post-abstract.php:946
-#: lib/framework/includes/block/class-post-abstract.php:952
+#: lib/framework/includes/block/class-post-abstract.php:811
+#: lib/framework/includes/block/class-post-abstract.php:936
 msgid "Next"
 msgstr ""
 
 #: lib/framework/includes/class-api.php:1146
 #: lib/framework/includes/class-api.php:1299
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "All"
 msgstr ""
 
@@ -225,44 +224,44 @@ msgstr ""
 msgid "Gutenverse Wrapper"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:352
 #: lib/framework/includes/class-dashboard.php:354
-#: lib/framework/includes/class-dashboard.php:355
+#: lib/framework/includes/class-dashboard.php:356
+#: lib/framework/includes/class-dashboard.php:357
 msgid "unknown"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:357
+#: lib/framework/includes/class-dashboard.php:359
 #: lib/framework/assets/js/dashboard.js:2
 msgid "by"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:935
-#: lib/framework/includes/class-dashboard.php:936
+#: lib/framework/includes/class-dashboard.php:953
+#: lib/framework/includes/class-dashboard.php:954
 #: lib/framework/includes/class-frontend-toolbar.php:219
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Dashboard"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:945
-#: lib/framework/includes/class-dashboard.php:946
+#: lib/framework/includes/class-dashboard.php:963
+#: lib/framework/includes/class-dashboard.php:964
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Ecosystem"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:955
-#: lib/framework/includes/class-dashboard.php:956
+#: lib/framework/includes/class-dashboard.php:973
+#: lib/framework/includes/class-dashboard.php:974
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Blocks"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:966
-#: lib/framework/includes/class-dashboard.php:967
+#: lib/framework/includes/class-dashboard.php:984
+#: lib/framework/includes/class-dashboard.php:985
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Theme List"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:977
-#: lib/framework/includes/class-dashboard.php:978
+#: lib/framework/includes/class-dashboard.php:995
+#: lib/framework/includes/class-dashboard.php:996
 #: lib/framework/includes/class-frontend-toolbar.php:237
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
@@ -270,22 +269,22 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:987
-#: lib/framework/includes/class-dashboard.php:988
+#: lib/framework/includes/class-dashboard.php:1005
+#: lib/framework/includes/class-dashboard.php:1006
 #: lib/framework/includes/class-frontend-toolbar.php:246
 #: lib/framework/assets/js/dashboard.js:2
 msgid "System Status"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:997
-#: lib/framework/includes/class-dashboard.php:998
+#: lib/framework/includes/class-dashboard.php:1015
+#: lib/framework/includes/class-dashboard.php:1016
 #: lib/framework/includes/class-frontend-toolbar.php:255
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Update Notice"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1008
-#: lib/framework/includes/class-dashboard.php:1009
+#: lib/framework/includes/class-dashboard.php:1026
+#: lib/framework/includes/class-dashboard.php:1027
 #: lib/framework/includes/class-frontend-toolbar.php:198
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Upgrade to PRO"
@@ -441,15 +440,15 @@ msgstr ""
 msgid "Fullsite Editor."
 msgstr ""
 
-#: lib/framework/includes/class-init.php:210
+#: lib/framework/includes/class-init.php:243
 msgid "Unable to read SVG file."
 msgstr ""
 
-#: lib/framework/includes/class-init.php:215
+#: lib/framework/includes/class-init.php:248
 msgid "SVG file contains disallowed or unsafe elements."
 msgstr ""
 
-#: lib/framework/includes/class-init.php:300
+#: lib/framework/includes/class-init.php:333
 msgid "Primary Navigation"
 msgstr ""
 
@@ -998,6 +997,7 @@ msgid "Both Dates"
 msgstr ""
 
 #: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
 msgid "HTML Tag"
 msgstr ""
 
@@ -1516,6 +1516,10 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "twitter"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Buttons"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2109,10 +2113,12 @@ msgid "Set Divider Size"
 msgstr ""
 
 #: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
 msgid "Column"
 msgstr ""
 
 #: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
 msgid "Row Gap"
 msgstr ""
 
@@ -2403,7 +2409,9 @@ msgid "pinterest"
 msgstr ""
 
 #: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Layout"
 msgstr ""
 
@@ -2764,6 +2772,7 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Space Between"
 msgstr ""
 
@@ -2842,6 +2851,7 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Space Around"
 msgstr ""
 
@@ -3386,6 +3396,14 @@ msgid "Link Text"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Remove Animation"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "If this option is enabled, the gallery items will not have any animation when the filter is applied."
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Filter Name"
 msgstr ""
 
@@ -3419,6 +3437,14 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Disable Link"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Alt from Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Custom Alt"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -3615,6 +3641,7 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Load More"
 msgstr ""
 
@@ -4121,6 +4148,8 @@ msgid "Navigation Height"
 msgstr ""
 
 #: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Center"
 msgstr ""
 
@@ -4313,34 +4342,6 @@ msgid "wechat"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Normal Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Normal Icon Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Active Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active Icon Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Accordion Item"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Add Accordion Child"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Focus Heading Color"
 msgstr ""
 
@@ -4525,10 +4526,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Accordion Title"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Buttons"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -5206,48 +5203,64 @@ msgstr ""
 msgid "Highlight"
 msgstr ""
 
-#: assets/js/dashboard.js:2
-msgid "Version 3.4.0"
+#: assets/js/blocks.js:2
+msgid "Normal Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Icon Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Active Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Icon Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Accordion Item"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Add Accordion Child"
 msgstr ""
 
 #: assets/js/dashboard.js:2
-msgid "Performance Improvements & Optimizations"
+msgid "Version 3.5.0"
 msgstr ""
 
 #: assets/js/dashboard.js:2
-msgid "This update brings several performance-focused improvements, including SVG icon support, optimized CSS and JavaScript loading, improved pagination for SEO, and a more efficient styling cache mechanism."
+msgid "New Container Block"
 msgstr ""
 
 #: assets/js/dashboard.js:2
-msgid "SVG Icons"
+msgid "We have introduced a brand-new Container Block that is more flexible, faster, and better for your site’s performance. You can start using the new, lightweight Container for your future designs to enjoy better speed and SEO right out of the box. While we are moving toward this new system, there is no need to worry—your existing layouts using the old \"Sections\" will continue to work perfectly."
 msgstr ""
 
 #: assets/js/dashboard.js:2
-msgid "We've been working on making Gutenverse even better and one of the improvements is giving you the option to use SVG icons instead of webfonts. This update helps deliver faster initial page loads, eliminates unused icons and extra bloat, and improves SEO through stronger Core Web Vitals."
+msgid "Better SEO & Accessibility"
 msgstr ""
 
 #: assets/js/dashboard.js:2
-msgid "CSS & JS Optimization"
+msgid "Over the last few versions, we have been consistently improving our blocks to make your website more search-engine friendly and accessible to everyone."
 msgstr ""
 
 #: assets/js/dashboard.js:2
-msgid "CSS and JavaScript files now load only when the related block or feature is used. This significantly reduces rendered code, resulting in faster loading times and better overall performance scores."
+msgid "Added aria-labels to ensure your site works great for users with screen readers."
 msgstr ""
 
 #: assets/js/dashboard.js:2
-msgid "Post Block Pagination For SEO"
+msgid "Improved how images are handled to keep your pages loading quickly, using lazy loading and fetch priority."
 msgstr ""
 
 #: assets/js/dashboard.js:2
-msgid "Post block pagination has been optimized with a cleaner structure and improved underlying code, helping paginated content be crawled and indexed more effectively by search engines."
-msgstr ""
-
-#: assets/js/dashboard.js:2
-msgid "Improve Styling Cache Mechanism"
-msgstr ""
-
-#: assets/js/dashboard.js:2
-msgid "This has been improved to ensure styles load instantly on subsequent visits. By reducing repeated style generation and unnecessary processing, pages feel smoother and more responsive, helping improve the user experience and strengthen Core Web Vitals scores."
+msgid "Refined our code so search engines can easily crawl and understand your content."
 msgstr ""
 
 #: assets/js/dashboard.js:2
@@ -5325,6 +5338,7 @@ msgstr ""
 
 #: assets/js/wizard.js:2
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Plugin Requirements"
 msgstr ""
 
@@ -5434,6 +5448,18 @@ msgid "Back to Upgrade Page"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
+msgid "Fullwidth Section"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Normal Width Section"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Change section width"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
 msgid "Back"
 msgstr ""
 
@@ -5506,18 +5532,6 @@ msgid "17 / 66 / 17"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
-msgid "Fullwidth Section"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Normal Width Section"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Change section width"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
 msgid "Content Width"
 msgstr ""
 
@@ -5558,10 +5572,12 @@ msgid "Column Position"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Stretch"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Space Evenly"
 msgstr ""
 
@@ -5610,6 +5626,7 @@ msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Layouts"
 msgstr ""
 
@@ -5647,6 +5664,30 @@ msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
 msgid "Add Column"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Force Column 100%"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "This will force the column width to be 100%."
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Column Width"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Column Order"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Background Animation"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Remove Column"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
@@ -5700,27 +5741,126 @@ msgid "Wrapper Link"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
-msgid "Background Animation"
+msgid "Container Structure"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
-msgid "Force Column 100%"
+msgid "Container variations"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
-msgid "This will force the column width to be 100%."
+msgid "Container Layout"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
-msgid "Column Width"
+msgid "Boxed"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
-msgid "Column Order"
+msgid "Full Width"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
-msgid "Remove Column"
+msgid "Min Height"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Items"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Direction"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Row"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Row Reverse"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Column Reverse"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Justify Content"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Align Items"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Wrap"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Items within the container can stay in a single line (No wrap), or break into multiple lines (Wrap)."
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "No Wrap"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Align Content"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Start"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "End"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Additional Options"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Scroll"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "div"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "header"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "footer"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "main"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "article"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "section"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "aside"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "nav"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Additional Settings"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
@@ -5760,18 +5900,22 @@ msgid "Unable to read Paste Style"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Import Section Notice"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "We can't import content because the Post Content is missing from your Template. Would you like to switch to Post View instead in order to import the content?"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Keep Import"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Dismiss"
 msgstr ""
 
@@ -5794,36 +5938,44 @@ msgid "Renew License"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Fetching Data"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Importing Assets"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Deploying Content"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Manage Required Plugin"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Import this page"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Importing "
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "There is plugin need to be installed or updated for this layout work correctly."
 msgid_plural "There are %s plugins need to be installed or updated for this layout work correctly."
 msgstr[0] ""
 msgstr[1] ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Manage Plugin Requirement →"
 msgstr ""
 
@@ -5834,151 +5986,184 @@ msgid "View Demo"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "by "
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Liked"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Like"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "No Result Found"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "It seems we can't find any results based on your search."
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Installing Plugin"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Disabling Plugin"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Deleting Plugin"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Activating Plugin"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Go to Plugin Page"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Install Plugin"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Update & Activate Plugin"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Activate Plugin"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Update Plugin"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Installed & Activated"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Installed version %s"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Required version %s or later"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Attention!"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Please refresh this page after install or update plugin"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Plugin Requirement"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Please install or update and activate these missing requirements plugin for this section or layout to work correctly. We recommend to backup your site before install/update plugin listed below."
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Search Layout"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Licenses"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Categories"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Welcome to Gutenverse Library"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Discover "
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid " Premium Layouts "
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid " and Sections You Never Meet Before!"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Basic"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Professional"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Agency"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Enterprise"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Free"
 msgstr ""
 
@@ -5988,60 +6173,74 @@ msgid "PRO"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Back to %s"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Back to Layouts"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Import this section"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Preview Section"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Import on Progress"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Missing Requirement"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Click for more detail"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "There is plugin need to be installed or updated for this section work correctly."
 msgid_plural "There are %s plugins need to be installed or updated for this section work correctly."
 msgstr[0] ""
 msgstr[1] ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Back to sections"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Back to Favorite Layout"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Back to Favorite sections"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Library"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Section"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
 msgid "Import Failed!"
 msgstr ""
 
@@ -6657,10 +6856,6 @@ msgid "Ken Burns Effect"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
-msgid "Direction"
-msgstr ""
-
-#: lib/framework/assets/js/core.js:2
 msgid "In"
 msgstr ""
 
@@ -7226,6 +7421,38 @@ msgstr ""
 
 #: lib/framework/assets/js/core.js:2
 msgid "Align"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Flex Item"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Align Self"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Order"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Custom Order"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Grow"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Shrink"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Flex Grow"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Flex Shrink"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2

@@ -1,1 +1,1 @@
-<?php return array('dependencies' => array('gutenverse-dep-animejs-script'), 'version' => '2e0394cda1afc82161fc');
+<?php return array('dependencies' => array('gutenverse-dep-animejs-script'), 'version' => '9bd56cd11ce7b59c333f');
