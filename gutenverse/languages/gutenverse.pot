@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 3.5.3\n"
+"Project-Id-Version: Gutenverse 3.6.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-04-06T05:57:28+00:00\n"
+"POT-Creation-Date: 2026-04-16T08:10:04+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
@@ -41,29 +41,35 @@ msgstr ""
 msgid "https://jegtheme.com/"
 msgstr ""
 
-#: includes/block/class-breadcrumb.php:125
+#: includes/block/class-breadcrumb.php:123
 msgid "Home"
 msgstr ""
 
-#: includes/block/class-breadcrumb.php:130
+#: includes/block/class-breadcrumb.php:128
 msgid "Page Not Found"
 msgstr ""
 
-#: includes/block/class-breadcrumb.php:133
+#: includes/block/class-breadcrumb.php:131
 msgid "Search"
 msgstr ""
 
-#: includes/block/class-breadcrumb.php:154
+#: includes/block/class-breadcrumb.php:152
 msgid "Author"
 msgstr ""
 
-#: includes/block/class-breadcrumb.php:169
+#: includes/block/class-breadcrumb.php:167
 msgid "Tag"
 msgstr ""
 
-#: includes/block/class-breadcrumb.php:209
+#: includes/block/class-breadcrumb.php:207
 #: assets/js/blocks.js:2
 msgid "Category"
+msgstr ""
+
+#. translators: %s: Item title
+#: includes/block/class-gallery.php:162
+#: includes/block/class-gallery.php:239
+msgid "Link to %s"
 msgstr ""
 
 #: includes/block/class-post-author.php:88
@@ -103,6 +109,11 @@ msgstr ""
 
 #: includes/block/class-post-title.php:32
 msgid "Post Title"
+msgstr ""
+
+#: includes/block/class-text-paragraph.php:72
+#: assets/js/blocks.js:2
+msgid "Text Paragraph"
 msgstr ""
 
 #: includes/class-api.php:106
@@ -196,11 +207,11 @@ msgstr ""
 msgid "Menu item"
 msgstr ""
 
-#: lib/framework/includes/block/class-block-abstract.php:216
+#: lib/framework/includes/block/class-block-abstract.php:264
 msgid "This content is password protected. To view it please enter this post password below:"
 msgstr ""
 
-#: lib/framework/includes/block/class-block-abstract.php:219
+#: lib/framework/includes/block/class-block-abstract.php:267
 msgid "Enter"
 msgstr ""
 
@@ -221,7 +232,7 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: lib/framework/includes/class-blocks.php:41
+#: lib/framework/includes/class-blocks.php:42
 msgid "Gutenverse Wrapper"
 msgstr ""
 
@@ -441,33 +452,86 @@ msgstr ""
 msgid "Fullsite Editor."
 msgstr ""
 
-#: lib/framework/includes/class-init.php:243
+#: lib/framework/includes/class-init.php:250
 msgid "Unable to read SVG file."
 msgstr ""
 
-#: lib/framework/includes/class-init.php:248
+#: lib/framework/includes/class-init.php:255
 msgid "SVG file contains disallowed or unsafe elements."
 msgstr ""
 
-#: lib/framework/includes/class-init.php:333
+#: lib/framework/includes/class-init.php:341
 msgid "Primary Navigation"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Text Indent"
+#: lib/framework/assets/js/core.js:2
+msgid "Text Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Columns"
+#: lib/framework/assets/js/core.js:2
+msgid "Background Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-msgid "Column Gap"
+msgid "Dynamic Data"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Alignment"
+msgid "Body"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Highlight Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Select accordion parent"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "How to use accordion"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Add new accordion child"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "To add new accordion, Click above button (Select accordion parent), and click + button (Add accordion item) on bottom right of your accordion."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Change default active"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Last Accordin Open will be the active state when first time loaded on frontend."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Default Active"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Accordion Title"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Left"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Right"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Spacing"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Alignment"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -486,13 +550,7 @@ msgid "Align Right"
 msgstr ""
 
 #: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Align Justify"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Text Color"
+msgid "Title Tag"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -503,36 +561,8 @@ msgid "Typography"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Link"
-msgstr ""
-
-#: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Link Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Link Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Link Color Hover"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Link Typography Hover"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Highlight Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Dynamic Data"
+msgid "Padding"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -543,6 +573,66 @@ msgstr ""
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/blocks.js:2
 msgid "Border"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Border Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Box Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Icon Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Active Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Icon Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Accordion Item"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Title"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -593,271 +683,251 @@ msgid "Condition"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Text Paragraph"
+msgid "Add Accordion Child"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Text Paragraph Placeholder"
+msgid "Focus Heading Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Gutenverse Social Share Stumbleupon"
+msgid "Focus Heading Typography"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Share on Stumbleupon"
+msgid "Focus Text Stroke"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "stumbleupon"
+msgid "Show Line"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Avatar Margin"
+msgid "Line Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Button Typography"
+msgid "Line Width"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Button Color"
+#: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Line Height"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Button Background"
+msgid "Line Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Main Heading Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Main Heading Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Main Text Stroke"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Alignment"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Main Text Tag"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Sub Text Tag"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Subtitle"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Subtitle Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Subtitle Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Line"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Main Title"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Main Title Text Clip"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Focus Title"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Focus Title Text Clip"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Sub Title"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Advanced Heading"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Animation Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Highlighted Style"
 msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Margin"
+msgid "Circle"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Curly"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Underline"
 msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Padding"
+msgid "Double"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Button Color Hover"
+msgid "Double Underline"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Button Background Hover"
+msgid "Underline Zigzag"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Input Typography"
+msgid "Diagonal"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Input Margin"
+msgid "Strikethrough"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Input Padding"
+msgid "X"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Border Focus"
+msgid "Before Text Animated"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Input Color Normal"
+msgid "Animated Text"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Input Background Color Normal"
+msgid "Text Rotation"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Input Color Hover"
+msgid "After Text Animated"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Input Background Color Hover"
+msgid "Display Duration"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Input Color Focus"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Input Background Color Focus"
+msgid "Animation Duration"
 msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Box Shadow"
+msgid "Transition Duration"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Hover Box Shadow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Reply Background Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Reply Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Reply Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Container Background Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Container Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Container Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Comment Background Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Comment Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Comment Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Comment Form"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Suffix"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Main Comment Suffix"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Reply Comment Suffix"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Comment Title"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Text"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Post Title "
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Comments Count"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Heading Typography"
+msgid "Split By Word"
 msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Heading Color"
+msgid "Loop"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Text Typography"
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Height"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Text Container Margin"
+#: lib/framework/assets/js/blocks.js:2
+msgid "Vertical Align"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Comment Count Typography"
+#: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Comment Count Color"
+#: lib/framework/assets/js/core.js:2
+msgid "Gradient"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Post Title Typography"
+msgid "Text color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Post Title Color"
+msgid "Text Gradient"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Text Margin"
+#: lib/framework/assets/js/core.js:2
+msgid "Text Shadow"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Suffix Typography"
+#: lib/framework/assets/js/core.js:2
+msgid "Text Stroke"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Suffix Color"
+msgid "Highlight color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Suffix Margin"
+msgid "Highlight Gradient"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Form Comment Link"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Link Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "List Comment Link"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "User Name Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "User Name Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Date Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Date Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Reply Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Reply Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Label Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Label Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Required Indicator Color"
+msgid "Highlight Width"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -865,136 +935,15 @@ msgid "Setting"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Comment Inputs"
+msgid "Normal Text"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Comment Main"
+msgid "Highlight"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Comment Reply"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Avatar"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Submit Button"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "How Post Comment works?"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "On Frontend"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Comment data will be fetched automatically based on the current post/loop."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Inside Page Editor and Site Editor"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "It will load placeholder data."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Heading Block"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Drop Cap"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Dropcap Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Dropcap Background Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Border Type"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Border Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Border Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Border radius"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Dropcap"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Date Format"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Relative Date/Time Format (ago)"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Default Format From Setting"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "December 31, 2022"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "2022-12-31"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "12/31/2022"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "31/12/2022"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "December 31, 2022 4:00 AM"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "12/31/2022 4:00 AM"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Custom Format"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Date Type"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Published Date"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Modified Date"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Both Dates"
+msgid "Text Clip"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1003,20 +952,15 @@ msgid "HTML Tag"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Link To"
+msgid "Make Title a Link"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Custom URL"
+msgid "Open in A New Tab"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Text color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Text Shadow"
+msgid "Link Rel"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1028,13 +972,17 @@ msgid "Hover Text Shadow"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Hover Text Stroke"
+msgstr ""
+
+#: assets/js/blocks.js:2
 #: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "Style"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "How Post Date works?"
+msgid "How Archive Title works?"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1042,7 +990,7 @@ msgid "Inside Page Editor, Query Loop Block, and on Frontend"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Date data will be fetched automatically based on the current post/loop."
+msgid "Title data will be fetched automatically based on the current archive/loop."
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1050,416 +998,20 @@ msgid "Inside Site Editor"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Arrow Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Normal Color"
+msgid "It will load placeholder data."
 msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Background Color"
+msgid "Link Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Normal Padding"
+msgid "Link Color Hover"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Normal Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Normal Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Background Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disabled Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Background Disabled Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disabled Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disabled Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disabled Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disabled Box Shadow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Above Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Below Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Star Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "As Header"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "As Footer"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Quote"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Rating"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Client Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Quote Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Rating Icon Full"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Rating Icon Half"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Testimonial List"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Name"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Client Picture"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Load"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Normal Load"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Lazy Load"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Rating"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Designation"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Comment"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Spacing Horizontal"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Spacing Vertical"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Dots Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Dots Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Dots Border Radius"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Dots Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active Border Radius"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Name Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Designation Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Comment Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Designation Spacing"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Quote Icon Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Override Quote Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-msgid "Top"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Left"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Name Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Name Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Designation Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Designation Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Comment Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Comment Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Quote Icon Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Quote Icon Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Radius"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-msgid "Bottom"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Gap"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Setting"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Slider Setting"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Testimonial Item"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Client Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Rating Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Navigation Arrow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Navigation Dots"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Type"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/components.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Gap"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/components.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Add Content"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid " Content Alignment"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Divider Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Divider General"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Divider Content"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Spacer Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "SPACER"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Normal Background Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Background Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Alignment"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Rotate"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon View"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Shape"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Border Radius"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Aria Label"
+msgid "Current Page Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1468,134 +1020,134 @@ msgid "Icon Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Show Share Text"
+msgid "Gap"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Display custom text beside icon"
+msgid "Value between arrow and text"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Share Text"
+msgid "Separator Icon"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Version"
+msgid "Hide Current Page"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Twitter Bird"
+msgid "Enable this option to hide the Post Title (on single post pages) or Product Title (on single product pages). On search, 404, and author pages, the current page title will still be displayed."
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Twitter X"
+msgid "How Breadcrumb Works?"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Background Color"
+msgid "In Frontend"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Text Background Color"
+msgid "This block won’t appear on the \"Front Page\" type."
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Padding"
+msgid "Inside Post Editor, Page Editor, Query Loop Block, and on the Frontend"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Text Padding"
+msgid "Breadcrumb data such as category, parent, or taxonomy will be fetched automatically based on the current post or loop."
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Gutenverse Social Share Twitter"
+msgid "Placeholder data will be displayed instead."
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Share on Twitter"
+msgid "Button Alignment"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "twitter"
+msgid "Link (Default)"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Buttons"
+msgid "Submit"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Social Icon Gap"
+msgid "Aria Label"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Orientation"
-msgstr ""
-
-#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Horizontal"
+msgid "Default"
 msgstr ""
 
 #: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Vertical"
+msgid "Info"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Item Style"
+msgid "Success"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Item Spacing"
+msgid "Warning"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Social Icon Shape"
+msgid "Danger"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Show Icon Text"
+msgid "Extra Small"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Social Icon Color"
+msgid "Small"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Background Gradient"
+msgid "Medium"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Hover Background Gradient"
+msgid "Large"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Spacing"
+msgid "Extra Large"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Border"
+msgid "Set Width"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Gutenverse Social Share Linkedin"
+msgid "Set Height"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Share on Linkedin"
+msgid "Show Icon"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "linkedin"
+msgid "Before"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Force hide text"
+msgid "After"
 msgstr ""
 
 #: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Hover Icon Color"
+msgid "Button Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Remove Icon Line Height"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1604,342 +1156,52 @@ msgid "Hover Text Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Dynamic Item Url"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Modify Icon Group"
-msgstr ""
-
-#: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Choose Icon"
+msgid "Hover Icon Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Image"
+msgid "Button"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Alt Type"
+msgid "Button Background"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Custom Caption"
+msgid "Button Border"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Title Tag"
+msgid "Set link on parent"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Title Icon"
+msgid "Buttons"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Title Icon Position"
+msgid "The Chart has more than 1 item, Max Value will be used instead of 100 for the percentage."
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Body Alignment"
+msgid "Indicator Content"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Enable Hover Border Bottom"
+msgid "Min Value"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Border Bottom Color"
+msgid "Max Value"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Hover Direction"
+msgid "If Chart has more than 1 item or Chart Content is Number, Max Value will be used"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Hover Border Bottom Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Fit"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Cover"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Contain"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Fil"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Scale Down"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Hover Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Hover Scale"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Image Filter"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Hover Filter"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Font Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Description Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Description Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Description Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Description Hover Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Margin Top"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Normal Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable button"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Wrapper"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Body"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Dynamic Image Data"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Body Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Description Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Floating"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Box Title"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Box Description"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Change Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Gutenverse Social Share Tumblr"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Share on Tumblr"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "tumblr"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Inherit Theme Layout"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "The Post Content's width will inherit your theme layout content size."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "This will be your post's content block, it will display all the blocks in any single post or page."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "That might be a simple arrangement like consecutive paragraphs in a blog post, or a more elaborate composition that includes image galleries, videos, tables, columns, and any other block types."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "How Post Content works?"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Post content data will be fetched automatically based on the current post/loop."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Inside Page/Post Editor and Inside Site Editor"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Gutenverse Social Share Facebook"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Share on Facebook"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "facebook"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Static Text"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Text Stroke"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Text Stroke"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Search Text color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Search Text Shadow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Search Text Stroke"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Search Text color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Search Text Shadow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Search Text Stroke"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "How Search Result Title works?"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "In Frontend"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Search Input will be replaced by the data user inputed in search form"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Inside Editor"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "<Search Input>"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Taxonomy"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Post Category"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Post Tag"
+msgid "Enable Content"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -1947,109 +1209,202 @@ msgid "Content Type"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "One Line"
+msgid "Content Order"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Block"
+msgid "Chart type"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Display Content Inline"
+msgid "Show Legend"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Separator"
+msgid "Show tooltip"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Hover Item Color"
+msgid "If Chart has more than 1 item, Max Value will be used instead of the percentage."
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "This option only show if Content Type : \"Block\" with Display Content Inline \"On\""
+msgid "Label"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Term Item"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "How Post Terms works?"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Inside Post Editor, Query Loop Block, and on Frontend"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Terms data will be fetched automatically based on the current post/loop."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Client Logos"
+msgid "Value"
 msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Title"
+msgid "Color Mode"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Client Logo"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Logo"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "If the Hover Logo is empty, the Client Logo will be used as a placeholder. Hovering options will still apply."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Fix Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Filter"
+msgid "Gradient Color 1"
 msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Transition Duration"
+msgid "Gradient Color 2"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Logo Background Normal"
+msgid "Gradient Direction"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Logo Background Hover"
+msgid "Top to Bottom"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Opacity"
+msgid "Left to Right"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Logo Wrapper Padding"
+msgid "Bottom to Top"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Logo Wrapper Margin"
+msgid "Right to Left"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Logo List"
+msgid "Gradient Position"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Logo Wrapper Style"
+msgid "Border Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Logo Style"
+msgid "Border Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Chart Alignment"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Chart Container Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Chart Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Cutout Percentage"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Bar Thickness"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Bar Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Indicator Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Indicator Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable content to use these options."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Card Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Card Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Card Border"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Card Box Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Align Justify"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Text Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Card Title Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description Alignment"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description Text Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Card Description Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Chart Item"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Card Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Chart Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Chart Title"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Write title..."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Chart Description"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Write description..."
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2128,7 +1483,13 @@ msgid "Label Position"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Right"
+#: lib/framework/assets/js/blocks.js:2
+msgid "Top"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+msgid "Bottom"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2156,6 +1517,10 @@ msgid "Label color"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Label Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Background Hover"
 msgstr ""
 
@@ -2173,19 +1538,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Width & Height Options"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Set Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Set Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-msgid "Vertical Align"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2223,6 +1575,10 @@ msgid "Countdown Expired"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Content Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Time Style"
 msgstr ""
 
@@ -2231,7 +1587,738 @@ msgid "Expired Section"
 msgstr ""
 
 #: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Add Content"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid " Content Alignment"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Divider Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Divider General"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Divider Content"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Load"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Load"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Lazy Load"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Wrapper Shape"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Connector"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "List Space"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Connector Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Connector Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Connector Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Bottom Space"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Spacing"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Wrapper Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon/Image Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number Prefix"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number Value"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number Suffix"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number format makes numbers easier to read, like changing 1000 to 1,000."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number Format"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Animation Duration (ms)"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Supper"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Supper"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Prefix Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Suffix Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Prefix Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Suffix Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number Bottom Space"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number Right Space"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title HTML Tag"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Hover Border Bottom"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Border Bottom Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Direction"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Select Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Select Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Alt"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Image Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Rotate"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Horizontal Space"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Vertical Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "General"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Styling"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Styling"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Super"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Zoom Options"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Total Item to Show"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Grid"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Layout"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Heading Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Zoom Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Zoom Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Remove Animation"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "If this option is enabled, the gallery items will not have any animation when the filter is applied."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Filter Name"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Lightbox Description"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Price"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Price Value"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Rating"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Rating"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Category"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Label Category"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disable Lightbox"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disable Link"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Alt Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Alt from Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Custom Alt"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Filtering"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Label for \"All\""
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Select Setting Price Rating Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Price Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Rating Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Price Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Rating Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Star Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Padding/Margin/Border Radius"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Border Radius"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Load More"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Items Per Load"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Button Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Button Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Margin Top"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "General Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "General Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Box Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Search Control Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Filter Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Search Input Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Separator Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "SeparatorColor"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Placeholder"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Wrapper Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Select Setting Icon Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Zoom Icon Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Icon Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Border"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Text Gap"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Zoom Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Zoom Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Zoom Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Zoom Border"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Zoom Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Zoom Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Link Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Link Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Link Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Link Border"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Link Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Link Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Desc Title Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Desc Title Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Desc Content Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Desc Content Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Desc Title Typo"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Desc Content Typo"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Gallery"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Filter"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Load More"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Filter Tab Styling"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Filter & Search Styling"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Item Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Item Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Item Card"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Lightbox Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Load More Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Thumbnail"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Price & Rating"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Location"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Map Zoom"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Map Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Map Filter"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Map Hover Filter"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Heading Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Text Alignment"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Writing Mode"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Horizontal Top to Bottom"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Vertical Left to Right"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Vertical Right to Left"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Sideways Left to Right"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Sideways Right to Left"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Overflow Wrap"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "If a word is longer than the container, choose whether to break it into a new line or not."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Break Word"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Typography Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Advance Animation"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Title Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description Hover Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2255,18 +2342,7 @@ msgid "Hover Watermark Icon"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Icon Box Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/components.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Default"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2277,10 +2353,6 @@ msgstr ""
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/blocks.js:2
 msgid "Fit Screen"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title HTML Tag"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2300,14 +2372,6 @@ msgid "Badge Position"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Type"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Alt"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Image Fit Content"
 msgstr ""
 
@@ -2316,20 +2380,11 @@ msgid "Image Width"
 msgstr ""
 
 #: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Color Mode"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Rotate"
+msgid "Image Height"
 msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Overlay Direction"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "General"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2338,10 +2393,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Container Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Style"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2358,15 +2409,7 @@ msgid "Icon Box Title"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Write title..."
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Icon Box Description"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Write description..."
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2378,490 +2421,36 @@ msgid "Badge name..."
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Make Title a Link"
+msgid "Hide Icon"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Open in A New Tab"
+msgid "Icon line height"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Link Rel"
+msgid "Dynamic Item Url"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "How Archive Title works?"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title data will be fetched automatically based on the current archive/loop."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Gutenverse Social Share Pinterest"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Share on Pinterest"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "pinterest"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/components.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Layout"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Featured Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Background Featured Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Meta"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Meta Date"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Wordpress Default Format"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Date Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Meta Category"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Category Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Meta Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Background"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Align Top"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Align Bottom"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/components.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Line Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Pagination Mode"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Note: Auto Load on Scroll effect is disabled in editor mode, but it can be viewed on Preview mode."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Text"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "\"Previous\" Text"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "\"Next\" Text"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "\"Load More\" Text"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "\"Loading\" Text"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Pagination Post"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Number of Post loaded per Pagination"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Auto Load Limit"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Limit of auto load when scrolling, set to zero to always load until end of content."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Normal color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disabled color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active Background"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disabled Background"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Inherit Query from Template"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Include Post Type"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text to show if there is no content"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Number of Post initially showed"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Post Offset"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Include Post"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Exclude Post"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Include Category"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Exclude Category"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Include Author"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Include Tag"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Exclude Tag"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Sort By"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Latest"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Oldest"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Alphabet Asc"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Alphabet Desc"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Random"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Random Week"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Random Month"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Most Comment"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Pagination"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Featured Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Meta"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Pagination Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Gutenverse Social Share Whatsapp"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Share on Whatsapp"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "whatsapp"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Current Page Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Value between arrow and text"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Separator Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hide Current Page"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable this option to hide the Post Title (on single post pages) or Product Title (on single product pages). On search, 404, and author pages, the current page title will still be displayed."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "How Breadcrumb Works?"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "This block won’t appear on the \"Front Page\" type."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Inside Post Editor, Page Editor, Query Loop Block, and on the Frontend"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Breadcrumb data such as category, parent, or taxonomy will be fetched automatically based on the current post or loop."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Placeholder data will be displayed instead."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Taxonomy Type"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Number of Category"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Sort Type"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Ascending"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Descending"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Post Count"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hide Empty Category"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Included Categories"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Divider"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Count"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Count Bracket"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Parentheses ()"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Braces {}"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Square []"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Angle brackets <>"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Double quotes \"\""
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Single quotes ''"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Alignment"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Space Between"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Spacing Vertical"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Spacing Horizontal"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Item Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Fullwidth"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Fit Content Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Custom Item Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Taxonomy Item Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Background Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Border"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Margin and Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Taxonomy Count"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Count Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Count Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Space Count & Taxnomy"
+msgid "Modify Icon Group"
 msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Custom"
+msgid "Choose Icon"
 msgstr ""
 
 #: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Space Around"
+msgid "Display Inline"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Count Spacing"
+msgid "Divider"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Space"
+msgid "Divider Horizontal Spacer"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2870,11 +2459,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Type Divider"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Double"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -2888,6 +2472,10 @@ msgid "Dashed"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Height Divider"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Width Divider"
 msgstr ""
 
@@ -2896,51 +2484,358 @@ msgid "Size Divider"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Divider Style"
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Space Between"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Star Style"
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Center"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Total"
+msgid "Adjust Vertical Align"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Content Gap"
+msgid "Text Indent"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Color (Marked)"
+msgid "Text Typography"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Color (Unmarked)"
+msgid "Text Style"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Gutenverse Social Share Reddit"
+msgid "Icon Alignment"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Share on Reddit"
+msgid "Rotate"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "reddit"
+msgid "Icon View"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Gutenverse Social Share Line"
+msgid "Icon Shape"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Share on Line"
+msgid "Custom Caption"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Line"
+msgid "Title Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Icon Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Body Alignment"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Border Bottom Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Fit"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Cover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Contain"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Fil"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Scale Down"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Hover Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Hover Scale"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Image Filter"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Hover Filter"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Font Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable button"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Wrapper"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Dynamic Image Data"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Body Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Description Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Floating"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Box Title"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Box Description"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Change Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Fetch Priority High"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Caption"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Caption Space"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Caption Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Opacity normal"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Filter Normal"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Opacity Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Filter Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Setting"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Caption"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Spacing Horizontal"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Spacing Vertical"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Dots Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Dots Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Dots Border Radius"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Dots Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Border Radius"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Arrow Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Background Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Box Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Client Logos"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Client Logo"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Logo"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "If the Hover Logo is empty, the Client Logo will be used as a placeholder. Hovering options will still apply."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Fix Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Logo Background Normal"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Logo Background Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Logo Wrapper Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Logo Wrapper Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Slider Setting"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Logo List"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Logo Wrapper Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Logo Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Navigation Arrow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Navigation Dots"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -3065,10 +2960,6 @@ msgid "Submenu Text Normal Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Indicator Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
 msgid "Submenu Text Normal Background"
 msgstr ""
 
@@ -3090,10 +2981,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Hamburger Alignment"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Normal Background"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -3163,1595 +3050,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Overlay Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Heading Type"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Text Alignment"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Writing Mode"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Horizontal Top to Bottom"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Vertical Left to Right"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Vertical Right to Left"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Sideways Left to Right"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Sideways Right to Left"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Overflow Wrap"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "If a word is longer than the container, choose whether to break it into a new line or not."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Break Word"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Clip"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Advance Animation"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Make Image a Link to Post"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Placeholder Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Placeholder Image when post doesn't have featured image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "LazyLoad"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Image Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Fill"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Ratio"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Custom Image Ratio"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Set to 0 for original ratio, or adjust for custom aspect ratio"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Center center"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Center Left"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Center Right"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Top Center"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Top Left"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Top Right"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Bottom Center"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Bottom Left"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Bottom Right"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Data"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Post Featured Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "How Post Featured Image works?"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image data will be fetched automatically based on the current post/loop."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Author Type"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Vertical Alignment"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Avatar"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Make Author a Link"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Biography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Name Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Biography Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Avatar Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "How Post Author works?"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Author data will be fetched automatically based on the current post/loop."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Zoom Options"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Total Item to Show"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Animation Duration"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Grid"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Heading Type"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hover Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Zoom Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Zoom Text"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Link Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Link Text"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Remove Animation"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "If this option is enabled, the gallery items will not have any animation when the filter is applied."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Filter Name"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Lightbox Description"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Price"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Price Value"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Rating"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Category"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Label Category"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disable Lightbox"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Disable Link"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Alt from Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Custom Alt"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Filtering"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Label for \"All\""
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Select Setting Price Rating Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Price Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Rating Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Price Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Rating Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Star Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Padding/Margin/Border Radius"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Load More"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Items Per Load"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Button Text"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Button Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "General Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "General Background"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Active Box Shadow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Search Control Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Filter Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Search Input Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Separator Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "SeparatorColor"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Placeholder"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Wrapper Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Background"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Select Setting Icon Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Zoom Icon Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Link Icon Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Text Gap"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Zoom Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Zoom Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Zoom Background"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Zoom Border"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Zoom Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Zoom Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Link Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Link Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Link Background"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Link Border"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Link Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Link Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Desc Title Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Desc Title Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Desc Content Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Desc Content Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Desc Title Typo"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Desc Content Typo"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Gallery"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/components.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Load More"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Filter Tab Styling"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Filter & Search Styling"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Item Hover"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Item Card"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Lightbox Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Load More Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Thumbnail"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Price & Rating"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Location"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Map Zoom"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Map Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Map Filter"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Map Hover Filter"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "The Chart has more than 1 item, Max Value will be used instead of 100 for the percentage."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Indicator Content"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Min Value"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Max Value"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "If Chart has more than 1 item or Chart Content is Number, Max Value will be used"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Content"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Order"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Chart type"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Legend"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show tooltip"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "If Chart has more than 1 item, Max Value will be used instead of the percentage."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Label"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Value"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Gradient"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Gradient Color 1"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Gradient Color 2"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Gradient Direction"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Top to Bottom"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Left to Right"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Bottom to Top"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Right to Left"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Gradient Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Chart Alignment"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Chart Container Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Chart Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Cutout Percentage"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Bar Thickness"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Bar Background"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Indicator Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable content to use these options."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Card Background"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Card Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Card Border"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Card Box Shadow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Alignment"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Text Shadow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Card Title Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Description"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Description Alignment"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Description Text Shadow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Card Description Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Chart Item"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Card Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Chart Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Chart Title"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Chart Description"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Input Placeholder Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Focus Box Shadow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Input Placeholder"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Button"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Form Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Input Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Button Container Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Select Close Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Close Icon Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Close Icon Rotate"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Close Icon Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Close Icon Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Input Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Search Setting"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Close Icon Styling"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Readmore"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Readmore Text"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Excerpt Tag"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "No Content Text"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text to show if there is no content. You can leave this empty"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "How Post Excerpt works?"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Excerpt data will be fetched automatically based on the current post/loop."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Number Prefix"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Number Value"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Number Suffix"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Number format makes numbers easier to read, like changing 1000 to 1,000."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Number Format"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Animation Duration (ms)"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Supper"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Supper"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Prefix Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Number Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Prefix Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Number Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Number Bottom Space"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Number Right Space"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Bottom Space"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Select Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Select Image"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Horizontal Space"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Vertical Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon Styling"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Styling"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Super"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Category Vertical Align"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Block Type"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Category Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Excerpt"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Excerpt Length"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Excerpt's End"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Read More"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Comment"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Post Meta"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Post Author Meta"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Meta Author Preposition"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Enable Post Date Meta"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Set Inline Excerpt"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Load Animation"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Load Animation Sequence"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Delay (ms)"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Input in miliseconds (ms). Later will be converted into second (s)"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Number Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Number Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Navigation Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Navigation Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Center"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Edge"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Author Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Author color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Author Icon Spacing"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Date Icon Spacing"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Set Inline Post Meta"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Exclude Current Post"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Post Item"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Thumbnail Overlay"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Thumbnail Container"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Content Container"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Excerpt"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Read More"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Post Meta"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Profile Picture"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Name HTML tag"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Overlay Content Position"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Job"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Social Settings"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Positions"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Job Positions"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Job Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Description Positions"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Description Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Social Icons Positions"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Social Icons Opacity"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Social Icons"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Space"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Profile Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Profile Border Radius"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Rotate"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Image Spacing"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Team Details"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Job Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Social Hover"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Profile Name"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Profile Job"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Team Description"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "How Post Title works?"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title data will be fetched automatically based on the current post/loop."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hide Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Icon line height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Gutenverse Social Share Wechat"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Share on Wechat"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "wechat"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Focus Heading Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Focus Heading Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Focus Text Stroke"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Line"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Line Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Line Width"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Line Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Main Heading Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Main Heading Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Main Text Stroke"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Main Text Tag"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Sub Text Tag"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Show Subtitle"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Subtitle Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Subtitle Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Main Title"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Main Title Text Clip"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Focus Title"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Focus Title Text Clip"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Sub Title"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Advanced Heading"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Video Source"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Video URL"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Currently supported External URL Types are : YouTube, Twitch, Vimeo, and DailyMotion"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Video Start"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "in Seconds. For example 1:30 minutes will be 90"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Video End"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Hide Control"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Autoplay Video"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Loop"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Muted"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Add Caption"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Caption Space"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Caption Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Video"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "For certain browsers, videos set to autoplay must be muted to prevent any unexpected disruptions for the user. For more details, please refer to "
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "this article"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Type/Paste Video URL Here"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Select accordion parent"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "How to use accordion"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Add new accordion child"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "To add new accordion, Click above button (Select accordion parent), and click + button (Add accordion item) on bottom right of your accordion."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Change default active"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Last Accordin Open will be the active state when first time loaded on frontend."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Default Active"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Accordion Title"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Display Inline"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Divider"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Divider Horizontal Spacer"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Height Divider"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Adjust Vertical Align"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Text Style"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Gutenverse Social Share Email"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Share on Email"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Email"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Gutenverse Social Share Vk"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Share on Vk"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "vk"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Loading Share Button..."
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Modify Share Group"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Share on"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Button Alignment"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Link (Default)"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Submit"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Info"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Success"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Warning"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Danger"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Extra Small"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Small"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Medium"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Large"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Extra Large"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Before"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "After"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Button Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Remove Icon Line Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Button"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Button Border"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Set link on parent"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Percent Background Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Percent Text Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Percent Typography"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Percent Text Shadow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Percent Switch Size"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Percent Switch Border"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Percent Switch Box Shadow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Progress Icon"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Percentage"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Duration"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Bar Gradient"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Track Gradient"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Bar Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Track Color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Track Height"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Bar Border Radius"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Track Border Radius"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Bar Padding"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Bar Margin"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title color"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Title Shadow"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Progress"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -4892,6 +3190,21 @@ msgid "Animation"
 msgstr ""
 
 #: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Duration"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Delay (ms)"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Input in miliseconds (ms). Later will be converted into second (s)"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Popup"
 msgstr ""
 
@@ -4912,6 +3225,1363 @@ msgid "This block doesn't render on frontend. Click to show popup."
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Video URL"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Type/Paste Video URL Here"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active Behavior"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Row Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Reverse Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Link"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Icon Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Set as Current Item"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Alignment"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Sub Title Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Sub Title Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Sub Title Text Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Border"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Text Space"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Text Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Author Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Vertical Alignment"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Avatar"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Make Author a Link"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Biography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Name Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Biography Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Avatar Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "How Post Author works?"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Author data will be fetched automatically based on the current post/loop."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Category Vertical Align"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Block Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Category Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Excerpt"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Excerpt Length"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Excerpt's End"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Read More"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Comment"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Post Meta"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Post Author Meta"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Meta Author Preposition"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Post Date Meta"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Date Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Published Date"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Modified Date"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Both Dates"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Date Format"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Relative Date/Time Format (ago)"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Wordpress Default Format"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Custom Format"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Set Inline Excerpt"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Pagination Mode"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Note: Auto Load on Scroll effect is disabled in editor mode, but it can be viewed on Preview mode."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "\"Previous\" Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "\"Next\" Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "\"Load More\" Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "\"Loading\" Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Pagination Post"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number of Post loaded per Pagination"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Auto Load Limit"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Limit of auto load when scrolling, set to zero to always load until end of content."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Load Animation"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Load Animation Sequence"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Navigation Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Navigation Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Edge"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Normal color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Active color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Background"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+msgid "Column Gap"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Author Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Author color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Author Icon Spacing"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Date Icon Spacing"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Set Inline Post Meta"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Inherit Query from Template"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Include Post Type"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text to show if there is no content"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Number of Post initially showed"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Post Offset"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Include Post"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Exclude Current Post"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Exclude Post"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Include Category"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Exclude Category"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Include Author"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Include Tag"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Exclude Tag"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Sort By"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Latest"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Oldest"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Alphabet Asc"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Alphabet Desc"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Random"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Random Week"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Random Month"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Most Comment"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Setting"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Pagination"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Post Item"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Thumbnail Overlay"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Thumbnail Container"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Container"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Excerpt"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Read More"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Post Meta"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Pagination Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Avatar Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Button Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Button Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Button Color Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Button Background Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Input Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Input Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Input Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Border Focus"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Input Color Normal"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Input Background Color Normal"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Input Color Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Input Background Color Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Input Color Focus"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Input Background Color Focus"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Reply Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Reply Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Reply Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Container Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Container Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Container Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Comment Form"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Suffix"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Main Comment Suffix"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Reply Comment Suffix"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Comment Title"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Post Title "
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Comments Count"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Heading Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Heading Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Container Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Count Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Count Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Post Title Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Post Title Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Suffix Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Form Comment Link"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "List Comment Link"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "User Name Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "User Name Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Date Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Date Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Reply Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Reply Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Label Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Required Indicator Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Inputs"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Main"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Reply"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Avatar"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Submit Button"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "How Post Comment works?"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "On Frontend"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment data will be fetched automatically based on the current post/loop."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Inside Page Editor and Site Editor"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Inherit Theme Layout"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "The Post Content's width will inherit your theme layout content size."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "This will be your post's content block, it will display all the blocks in any single post or page."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "That might be a simple arrangement like consecutive paragraphs in a blog post, or a more elaborate composition that includes image galleries, videos, tables, columns, and any other block types."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "How Post Content works?"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Post content data will be fetched automatically based on the current post/loop."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Inside Page/Post Editor and Inside Site Editor"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Default Format From Setting"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "December 31, 2022"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "2022-12-31"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "12/31/2022"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "31/12/2022"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "December 31, 2022 4:00 AM"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "12/31/2022 4:00 AM"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Link To"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Custom URL"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "How Post Date works?"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Date data will be fetched automatically based on the current post/loop."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Readmore"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Readmore Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Excerpt Tag"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "No Content Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text to show if there is no content. You can leave this empty"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "How Post Excerpt works?"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Excerpt data will be fetched automatically based on the current post/loop."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Make Image a Link to Post"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Placeholder Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Placeholder Image when post doesn't have featured image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "LazyLoad"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Fill"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Ratio"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Custom Image Ratio"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Set to 0 for original ratio, or adjust for custom aspect ratio"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Center center"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Center Left"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Center Right"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Top Center"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Top Left"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Top Right"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Bottom Center"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Bottom Left"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Bottom Right"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Data"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Post Featured Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "How Post Featured Image works?"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image data will be fetched automatically based on the current post/loop."
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Vertical"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Horizontal"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Featured Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Background Featured Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Meta"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Meta Date"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Date Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Meta Category"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Category Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Meta Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Align Top"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Align Bottom"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Featured Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Meta"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Taxonomy"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Post Category"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Post Tag"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "One Line"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Block"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Display Content Inline"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Separator"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Item Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "This option only show if Content Type : \"Block\" with Display Content Inline \"On\""
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Term Item"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "How Post Terms works?"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Inside Post Editor, Query Loop Block, and on Frontend"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Terms data will be fetched automatically based on the current post/loop."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "How Post Title works?"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title data will be fetched automatically based on the current post/loop."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Percent Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Percent Text Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Percent Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Percent Text Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Percent Switch Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Percent Switch Border"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Percent Switch Box Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Progress Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Percentage"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Bar Gradient"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Track Gradient"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Bar Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Track Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Track Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Bar Border Radius"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Track Border Radius"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Bar Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Bar Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Title Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Progress"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Static Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Search Text color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Search Text Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Search Text Stroke"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Search Text color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Search Text Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Search Text Stroke"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "How Search Result Title works?"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Search Input will be replaced by the data user inputed in search form"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Inside Editor"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "<Search Input>"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Input Placeholder Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Focus Box Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Input Placeholder"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Button"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Form Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Input Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Button Container Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Select Close Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Close Icon Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Close Icon Rotate"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Close Icon Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Close Icon Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Input Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Search Setting"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Close Icon Styling"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Force hide text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Background Gradient"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hover Background Gradient"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Social Icon Shape"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Icon Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Display custom text beside icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Social Icon Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Social Icon Gap"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Share Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Share Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Version"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Twitter Bird"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Twitter X"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Loading Share Button..."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Modify Share Group"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Share on"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Gutenverse Social Share Email"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Share on Email"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Email"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Gutenverse Social Share Facebook"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Share on Facebook"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "facebook"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Gutenverse Social Share Line"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Share on Line"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Gutenverse Social Share Linkedin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Share on Linkedin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "linkedin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Gutenverse Social Share Pinterest"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Share on Pinterest"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "pinterest"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Gutenverse Social Share Reddit"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Share on Reddit"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "reddit"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Gutenverse Social Share Stumbleupon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Share on Stumbleupon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "stumbleupon"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Gutenverse Social Share Telegram"
 msgstr ""
 
@@ -4924,37 +4594,103 @@ msgid "telegram"
 msgstr ""
 
 #: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Fetch Priority High"
+msgid "Gutenverse Social Share Tumblr"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Show Caption"
+msgid "Share on Tumblr"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Opacity normal"
+msgid "tumblr"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Image Filter Normal"
+msgid "Gutenverse Social Share Twitter"
 msgstr ""
 
 #: assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Opacity Hover"
+msgid "Share on Twitter"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Image Filter Hover"
+msgid "twitter"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Image Setting"
+msgid "Gutenverse Social Share Vk"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Caption"
+msgid "Share on Vk"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "vk"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Gutenverse Social Share Wechat"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Share on Wechat"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "wechat"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Gutenverse Social Share Whatsapp"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Share on Whatsapp"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "whatsapp"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Orientation"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Item Spacing"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Spacer Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "SPACER"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Star Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Total"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Gap"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Gap"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Color (Marked)"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Color (Unmarked)"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -4971,6 +4707,10 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Content Text Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Content Typography"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -5002,234 +4742,501 @@ msgid "Delete Tab"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Active Behavior"
+msgid "Taxonomy Type"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Row Height"
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Number of Category"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Reverse Position"
+msgid "Sort Type"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Show Link"
+msgid "Ascending"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Link Icon Position"
+msgid "Descending"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Set as Current Item"
+msgid "Post Count"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Title Background"
+msgid "Name"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Sub Title Typography"
+msgid "Hide Empty Category"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Sub Title Color"
+msgid "Included Categories"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Sub Title Text Shadow"
+msgid "Show Divider"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Link Padding"
+msgid "Show Count"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Link Border"
+msgid "Count Bracket"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Text Space"
+msgid "Parentheses ()"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Link Background"
+msgid "Braces {}"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Link Text Shadow"
+msgid "Square []"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Link Style"
+msgid "Angle brackets <>"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Number"
+msgid "Double quotes \"\""
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Wrapper Shape"
+msgid "Single quotes ''"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Show Connector"
+msgid "Content Spacing Vertical"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "List Space"
+msgid "Content Spacing Horizontal"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Connector Style"
+msgid "Item Width"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Connector Color"
+msgid "Fullwidth"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Connector Width"
+msgid "Fit Content Width"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Content Spacing"
+msgid "Custom Item Width"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Wrapper Style"
+msgid "Taxonomy Item Width"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon/Image Style"
+msgid "Content Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Number Style"
+msgid "Content Background Color"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Text Type"
+msgid "Content Border"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Animation Style"
+msgid "Margin and Padding"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Highlighted Style"
+msgid "Content Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Taxonomy Count"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Count Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Count Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Space Count & Taxnomy"
 msgstr ""
 
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Circle"
+msgid "Custom"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Curly"
-msgstr ""
-
-#: assets/js/blocks.js:2
-#: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-msgid "Underline"
+msgid "Space Around"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Double Underline"
+msgid "Count Spacing"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Underline Zigzag"
+msgid "Icon Space"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Diagonal"
+msgid "Divider Style"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Strikethrough"
+msgid "Profile Picture"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "X"
+msgid "Name HTML tag"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Before Text Animated"
+msgid "Overlay Content Position"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Animated Text"
+msgid "Job"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Text Rotation"
+msgid "Title Social Settings"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "After Text Animated"
+msgid "Title Positions"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Display Duration"
+msgid "Title Opacity"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Split By Word"
+msgid "Job Positions"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Text Gradient"
+msgid "Job Opacity"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Highlight color"
+msgid "Description Positions"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Highlight Gradient"
+msgid "Description Opacity"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Highlight Width"
+msgid "Social Icons Positions"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Normal Text"
+msgid "Social Icons Opacity"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Highlight"
+msgid "Show Social Icons"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Normal Icon"
+msgid "Text Space"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Normal Icon Color"
+msgid "Profile Padding"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Icon Active Size"
+msgid "Profile Border Radius"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Active Icon"
+msgid "Image Rotate"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Active Icon Color"
+msgid "Image Spacing"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Accordion Item"
+msgid "Team Details"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Add Accordion Child"
+msgid "Name Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Job Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Social Hover"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Profile Name"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Profile Job"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Team Description"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Background Disabled Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Padding"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Opacity"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Disabled Box Shadow"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Above Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Below Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Star Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "As Header"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "As Footer"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Quote"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Rating"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Show Client Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Quote Icon"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Rating Icon Full"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Rating Icon Half"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Testimonial List"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Client Picture"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Designation"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Designation Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Typography"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Designation Spacing"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Quote Icon Size"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Override Quote Position"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Name Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Name Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Designation Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Designation Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Comment Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Quote Icon Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Quote Icon Hover Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Image Radius"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Icon Margin"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Testimonial Item"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Client Image"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Rating Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable Heading Block"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Columns"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Drop Cap"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Dropcap Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Dropcap Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Border radius"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Dropcap"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Text Paragraph Placeholder"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Video Source"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Currently supported External URL Types are : YouTube, Twitch, Vimeo, and DailyMotion"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Video Start"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "in Seconds. For example 1:30 minutes will be 90"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Video End"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Hide Control"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Autoplay Video"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Muted"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Add Caption"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Video"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "For certain browsers, videos set to autoplay must be muted to prevent any unexpected disruptions for the user. For more details, please refer to "
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "this article"
 msgstr ""
 
 #: assets/js/dashboard.js:2
@@ -5449,6 +5456,223 @@ msgid "Back to Upgrade Page"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
+msgid "Force Column 100%"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "This will force the column width to be 100%."
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Column Width"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Column Order"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Blur"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Blur Hover"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Layouts"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Pointer Event"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Sticky"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Cursor Effect"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Background Effect"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Background Animation"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Remove Column"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Add Column"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Container Structure"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Container variations"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Container Layout"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Boxed"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Full Width"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Container Width"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Min Height"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Items"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Direction"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Row"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Row Reverse"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Column Reverse"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Justify Content"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Align Items"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Wrap"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Items within the container can stay in a single line (No wrap), or break into multiple lines (Wrap)."
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "No Wrap"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Align Content"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Start"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "End"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Space Evenly"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Additional Options"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Overflow"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Hidden"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Scroll"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+#: lib/framework/assets/js/core.js:2
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Auto"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "div"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "header"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "footer"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "main"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "article"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "section"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "aside"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "nav"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Background Animated"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Shape Divider"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Shape Divider Animated"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
+msgid "Additional Settings"
+msgstr ""
+
+#: lib/framework/assets/js/blocks.js:2
 msgid "Fullwidth Section"
 msgstr ""
 
@@ -5537,10 +5761,6 @@ msgid "Content Width"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
-msgid "Container Width"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
 msgid "Wrap Column 100%"
 msgstr ""
 
@@ -5578,26 +5798,7 @@ msgid "Stretch"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Space Evenly"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Overflow"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
 msgid "\"overflow:clip\" May not work on safari"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Hidden"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Auto"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
@@ -5617,78 +5818,7 @@ msgid "Please Select Column for your Section."
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Blur"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Blur Hover"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/components.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Layouts"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
 msgid "Structure"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Sticky"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Cursor Effect"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Background Effect"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Background Animated"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Shape Divider"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Shape Divider Animated"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Pointer Event"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Add Column"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Force Column 100%"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "This will force the column width to be 100%."
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Column Width"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Column Order"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Background Animation"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Remove Column"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
@@ -5739,129 +5869,6 @@ msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
 msgid "Wrapper Link"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Container Structure"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Container variations"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Container Layout"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Boxed"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Full Width"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Min Height"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Items"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Direction"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Row"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Row Reverse"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Column Reverse"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Justify Content"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Align Items"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Wrap"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Items within the container can stay in a single line (No wrap), or break into multiple lines (Wrap)."
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "No Wrap"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Align Content"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "Start"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-#: lib/framework/assets/js/core.js:2
-msgid "End"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Additional Options"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Scroll"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "div"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "header"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "footer"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "main"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "article"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "section"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "aside"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "nav"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Additional Settings"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
@@ -6550,20 +6557,20 @@ msgid "Remove item"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
-msgid "UPGRADE REQUIRED"
-msgstr ""
-
-#: lib/framework/assets/js/core.js:2
-msgid "Upgrade Plan Now"
-msgstr ""
-
-#: lib/framework/assets/js/core.js:2
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Copied..."
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
 msgid "Click to Copy Element Id"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "UPGRADE REQUIRED"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Upgrade Plan Now"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
@@ -6886,6 +6893,14 @@ msgstr ""
 
 #: lib/framework/assets/js/core.js:2
 msgid "If value has not been set, it will follow the higher resolution's value"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Empty Custom Color"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Add Custom Color"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
