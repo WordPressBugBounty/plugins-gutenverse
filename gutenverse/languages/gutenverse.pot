@@ -2,21 +2,21 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 3.8.2\n"
+"Project-Id-Version: Gutenverse 4.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-06-23T03:46:08+00:00\n"
+"POT-Creation-Date: 2026-08-12T05:45:31+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
 
 #. Plugin Name of the plugin
-#: lib/framework/includes/class-dashboard.php:1097
-#: lib/framework/includes/class-dashboard.php:1098
+#: lib/framework/includes/class-dashboard.php:1119
+#: lib/framework/includes/class-dashboard.php:1120
 #: lib/framework/includes/class-frontend-toolbar.php:121
 #: assets/js/dashboard.js:2
 #: assets/js/wizard.js:2
@@ -67,8 +67,8 @@ msgid "Category"
 msgstr ""
 
 #. translators: %s: Item title
-#: includes/block/class-gallery.php:162
-#: includes/block/class-gallery.php:239
+#: includes/block/class-gallery.php:180
+#: includes/block/class-gallery.php:257
 msgid "Link to %s"
 msgstr ""
 
@@ -119,10 +119,10 @@ msgstr ""
 #: includes/class-api.php:106
 #: includes/class-api.php:156
 #: includes/class-api.php:171
-#: lib/framework/helper.php:1767
-#: lib/framework/helper.php:1786
-#: lib/framework/helper.php:1805
-#: lib/framework/helper.php:1824
+#: lib/framework/helper.php:1878
+#: lib/framework/helper.php:1897
+#: lib/framework/helper.php:1916
+#: lib/framework/helper.php:1935
 msgid "Forbidden Access"
 msgstr ""
 
@@ -201,34 +201,34 @@ msgid "Access denied"
 msgstr ""
 
 #. translators: 1: Time from now.
-#: lib/framework/helper.php:772
+#: lib/framework/helper.php:789
 msgid "%s ago"
 msgstr ""
 
-#: lib/framework/helper.php:1217
+#: lib/framework/helper.php:1328
 msgid "Menu item"
 msgstr ""
 
-#: lib/framework/includes/block/class-block-abstract.php:264
+#: lib/framework/includes/block/class-block-abstract.php:332
 msgid "This content is password protected. To view it please enter this post password below:"
 msgstr ""
 
-#: lib/framework/includes/block/class-block-abstract.php:267
+#: lib/framework/includes/block/class-block-abstract.php:335
 msgid "Enter"
 msgstr ""
 
-#: lib/framework/includes/block/class-post-abstract.php:776
-#: lib/framework/includes/block/class-post-abstract.php:866
+#: lib/framework/includes/block/class-post-abstract.php:844
+#: lib/framework/includes/block/class-post-abstract.php:934
 msgid "Prev"
 msgstr ""
 
-#: lib/framework/includes/block/class-post-abstract.php:811
-#: lib/framework/includes/block/class-post-abstract.php:936
+#: lib/framework/includes/block/class-post-abstract.php:879
+#: lib/framework/includes/block/class-post-abstract.php:1004
 msgid "Next"
 msgstr ""
 
-#: lib/framework/includes/class-api.php:1527
-#: lib/framework/includes/class-api.php:1680
+#: lib/framework/includes/class-api.php:1574
+#: lib/framework/includes/class-api.php:1727
 #: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "All"
@@ -238,44 +238,44 @@ msgstr ""
 msgid "Gutenverse Wrapper"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:371
-#: lib/framework/includes/class-dashboard.php:373
-#: lib/framework/includes/class-dashboard.php:374
+#: lib/framework/includes/class-dashboard.php:364
+#: lib/framework/includes/class-dashboard.php:366
+#: lib/framework/includes/class-dashboard.php:367
 msgid "unknown"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:376
+#: lib/framework/includes/class-dashboard.php:369
 #: lib/framework/assets/js/dashboard.js:2
 msgid "by"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1118
-#: lib/framework/includes/class-dashboard.php:1119
+#: lib/framework/includes/class-dashboard.php:1140
+#: lib/framework/includes/class-dashboard.php:1141
 #: lib/framework/includes/class-frontend-toolbar.php:219
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Dashboard"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1128
-#: lib/framework/includes/class-dashboard.php:1129
+#: lib/framework/includes/class-dashboard.php:1150
+#: lib/framework/includes/class-dashboard.php:1151
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Ecosystem"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1138
-#: lib/framework/includes/class-dashboard.php:1139
+#: lib/framework/includes/class-dashboard.php:1160
+#: lib/framework/includes/class-dashboard.php:1161
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Blocks"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1149
-#: lib/framework/includes/class-dashboard.php:1150
+#: lib/framework/includes/class-dashboard.php:1171
+#: lib/framework/includes/class-dashboard.php:1172
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Theme List"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1160
-#: lib/framework/includes/class-dashboard.php:1161
+#: lib/framework/includes/class-dashboard.php:1182
+#: lib/framework/includes/class-dashboard.php:1183
 #: lib/framework/includes/class-frontend-toolbar.php:237
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
@@ -283,22 +283,22 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1170
-#: lib/framework/includes/class-dashboard.php:1171
+#: lib/framework/includes/class-dashboard.php:1192
+#: lib/framework/includes/class-dashboard.php:1193
 #: lib/framework/includes/class-frontend-toolbar.php:246
 #: lib/framework/assets/js/dashboard.js:2
 msgid "System Status"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1180
-#: lib/framework/includes/class-dashboard.php:1181
+#: lib/framework/includes/class-dashboard.php:1202
+#: lib/framework/includes/class-dashboard.php:1203
 #: lib/framework/includes/class-frontend-toolbar.php:255
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Update Notice"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1191
-#: lib/framework/includes/class-dashboard.php:1192
+#: lib/framework/includes/class-dashboard.php:1213
+#: lib/framework/includes/class-dashboard.php:1214
 #: lib/framework/includes/class-frontend-toolbar.php:198
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Upgrade to PRO"
@@ -363,31 +363,6 @@ msgstr ""
 #: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "None"
-msgstr ""
-
-#: lib/framework/includes/class-frontend-cache.php:364
-msgid "Once a Year"
-msgstr ""
-
-#: lib/framework/includes/class-frontend-cache.php:368
-msgid "Once a Month"
-msgstr ""
-
-#: lib/framework/includes/class-frontend-cache.php:372
-msgid "Every Week"
-msgstr ""
-
-#: lib/framework/includes/class-frontend-cache.php:376
-msgid "Once Every 2 Days"
-msgstr ""
-
-#: lib/framework/includes/class-frontend-cache.php:380
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Daily"
-msgstr ""
-
-#: lib/framework/includes/class-frontend-cache.php:384
-msgid "Once Every 5 Minutes"
 msgstr ""
 
 #: lib/framework/includes/class-frontend-toolbar.php:156
@@ -457,15 +432,15 @@ msgstr ""
 msgid "Fullsite Editor."
 msgstr ""
 
-#: lib/framework/includes/class-init.php:272
+#: lib/framework/includes/class-init.php:279
 msgid "Unable to read SVG file."
 msgstr ""
 
-#: lib/framework/includes/class-init.php:277
+#: lib/framework/includes/class-init.php:284
 msgid "SVG file contains disallowed or unsafe elements."
 msgstr ""
 
-#: lib/framework/includes/class-init.php:363
+#: lib/framework/includes/class-init.php:371
 msgid "Primary Navigation"
 msgstr ""
 
@@ -2442,6 +2417,10 @@ msgid "Dynamic Item Url"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Cannot Fetch Related SVG"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Modify Icon Group"
 msgstr ""
 
@@ -3575,6 +3554,14 @@ msgid "Inherit Query from Template"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Frontend will follow the current archive, search, or author template query."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "When this block is used inside a Query Template, such as an Archive, Search, or Category template, the post filters are ignored."
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Include Post Type"
 msgstr ""
 
@@ -4129,7 +4116,19 @@ msgid "Image Data"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Post Featured Image"
+msgid "Gallery Setting"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Video Setting"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Gallery Navigation Style"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Gallery Dots Style"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -4138,6 +4137,10 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Image data will be fetched automatically based on the current post/loop."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Post Featured Image"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -5302,35 +5305,23 @@ msgid "this article"
 msgstr ""
 
 #: assets/js/dashboard.js:2
-msgid "Version 3.5.0"
+msgid "Version 4.0.0"
 msgstr ""
 
 #: assets/js/dashboard.js:2
-msgid "New Container Block"
+msgid "Faster Frontend Experience"
 msgstr ""
 
 #: assets/js/dashboard.js:2
-msgid "We have introduced a brand-new Container Block that is more flexible, faster, and better for your site’s performance. You can start using the new, lightweight Container for your future designs to enjoy better speed and SEO right out of the box. While we are moving toward this new system, there is no need to worry—your existing layouts using the old \"Sections\" will continue to work perfectly."
+msgid "Gutenverse 4.0.0 improves asset loading, frontend cache handling, and mobile background behavior to help pages load more efficiently."
 msgstr ""
 
 #: assets/js/dashboard.js:2
-msgid "Better SEO & Accessibility"
+msgid "Better Icon Loading"
 msgstr ""
 
 #: assets/js/dashboard.js:2
-msgid "Over the last few versions, we have been consistently improving our blocks to make your website more search-engine friendly and accessible to everyone."
-msgstr ""
-
-#: assets/js/dashboard.js:2
-msgid "Added aria-labels to ensure your site works great for users with screen readers."
-msgstr ""
-
-#: assets/js/dashboard.js:2
-msgid "Improved how images are handled to keep your pages loading quickly, using lazy loading and fetch priority."
-msgstr ""
-
-#: assets/js/dashboard.js:2
-msgid "Refined our code so search engines can easily crawl and understand your content."
+msgid "Icon can now be converted to optimized SVG output, reducing dependency on frontend icon font loading."
 msgstr ""
 
 #: assets/js/dashboard.js:2
@@ -5685,7 +5676,6 @@ msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
-#: lib/framework/assets/js/dashboard.js:2
 msgid "Auto"
 msgstr ""
 
@@ -7166,6 +7156,40 @@ msgid "Custom JS"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Upgrade "
+msgstr ""
+
+#: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
+#: lib/framework/assets/js/dashboard.js:2
+msgid " Gutenverse PRO "
+msgstr ""
+
+#: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
+#: lib/framework/assets/js/dashboard.js:2
+msgid " version to "
+msgstr ""
+
+#: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
+#: lib/framework/assets/js/dashboard.js:2
+msgid " unlock these premium features"
+msgstr ""
+
+#: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "Install Gutenverse News Essentials"
+msgstr ""
+
+#: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/core.js:2
+msgid "You need to Install and Activate plugin Gutenverse News Essentials to unlock this feature."
+msgstr ""
+
+#: lib/framework/assets/js/components.js:2
 msgid "Edit"
 msgstr ""
 
@@ -7382,6 +7406,7 @@ msgid "OK"
 msgstr ""
 
 #: lib/framework/assets/js/components.js:2
+#: lib/framework/assets/js/dashboard.js:2
 msgid "Activated"
 msgstr ""
 
@@ -7432,6 +7457,18 @@ msgstr ""
 
 #: lib/framework/assets/js/core.js:2
 msgid "Search..."
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Click to upload"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid " or drag and drop"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Suggested max. file size : 1MB"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
@@ -8009,6 +8046,14 @@ msgid "Search Icon"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
+msgid "Automatically convert to SVG"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Enable this to improve page performance by using optimized SVG icons."
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
 msgid "Insert Icon"
 msgstr ""
 
@@ -8189,6 +8234,10 @@ msgid "Exit Preview"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
+msgid "Choose Images"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
 msgid "Unlock Advance Animation"
 msgstr ""
 
@@ -8210,6 +8259,14 @@ msgstr ""
 
 #: lib/framework/assets/js/core.js:2
 msgid "Input Logic allows you to create a conditional display for certain input values."
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Unlock reCAPTCHA Site Key"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Connect your Google reCAPTCHA site key by upgrading to Pro. This keeps your form protected while unlocking reCAPTCHA configuration in the editor."
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
@@ -8337,6 +8394,22 @@ msgid "Enhance your elements with Tooltip: deliver clear, contextual guidance th
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
+msgid "Gallery Post Format"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Displaying a gallery as the featured image of your post."
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Video Post Format"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Displaying a video as the featured image of your post when using video type format post."
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
 msgid "Z Index"
 msgstr ""
 
@@ -8346,6 +8419,10 @@ msgstr ""
 
 #: lib/framework/assets/js/core.js:2
 msgid "Opacity Normal"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "These display options follow the Responsive Breakpoints configured in the Gutenverse settings dashboard."
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
@@ -8557,18 +8634,6 @@ msgid "Check Now"
 msgstr ""
 
 #: lib/framework/assets/js/dashboard.js:2
-msgid "Upgrade "
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid " Gutenverse PRO "
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid " version to "
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
 msgid " unlock these premium blocks"
 msgstr ""
 
@@ -8705,82 +8770,6 @@ msgid "Download Error"
 msgstr ""
 
 #: lib/framework/assets/js/dashboard.js:2
-msgid "Frontend Render Settings"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Please Refresh the Page After Saving Your Settings"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Render Mechanism"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Pick Render Mechanism the System should implement when rendering frontend assets"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "File"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Inline"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Use manual delete cache clean process instead of automatic if you are using other cache plugin"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Manual Deletion"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Use Manual File Delete if you are using other cache plugin. "
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Manual"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Cache Clean Up"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Loading..."
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Delete Cache"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Old File Deletion Schedule"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Every 5 Minutes"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Every 2 days"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Weekly"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Monthly"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
-msgid "Yearly"
-msgstr ""
-
-#: lib/framework/assets/js/dashboard.js:2
 msgid "Fix Default Browser/WordPress Styles & Scripts"
 msgstr ""
 
@@ -8809,6 +8798,62 @@ msgid "This will disable WordPress default script for handling emojis, do this i
 msgstr ""
 
 #: lib/framework/assets/js/dashboard.js:2
+msgid "Legacy Generated Frontend Files"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Remove old generated CSS files after your page cache has been purged."
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Legacy size"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Only clear these files after purging page cache or CDN cache. Cached pages may still reference old generated CSS URLs."
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Clearing..."
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Clear Legacy Files"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "No Legacy Files"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Internal Inline Style Cache"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Stores generated inline style payloads so large pages do not need to rebuild block CSS on every request."
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Cache size"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "files"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Clearing this cache is safe. The next frontend request will regenerate the needed inline style payloads."
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Clear Internal Cache"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "No Internal Cache"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
 msgid "Editor"
 msgstr ""
 
@@ -8826,6 +8871,10 @@ msgstr ""
 
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Performance"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Account"
 msgstr ""
 
 #: lib/framework/assets/js/dashboard.js:2
@@ -8857,6 +8906,10 @@ msgid "Form Settings"
 msgstr ""
 
 #: lib/framework/assets/js/dashboard.js:2
+msgid "Form Integrations"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
 msgid "Global Block Settings"
 msgstr ""
 
@@ -8869,7 +8922,15 @@ msgid "View Counter Settings"
 msgstr ""
 
 #: lib/framework/assets/js/dashboard.js:2
+msgid "Post Review Settings"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
 msgid "Paywall Settings"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Like & Dislike Settings"
 msgstr ""
 
 #: lib/framework/assets/js/dashboard.js:2
@@ -8877,11 +8938,19 @@ msgid "Performance Settings"
 msgstr ""
 
 #: lib/framework/assets/js/dashboard.js:2
-msgid " unlock these premium features"
+msgid "Account Settings"
 msgstr ""
 
 #: lib/framework/assets/js/dashboard.js:2
-msgid "Please Install Gutenverse News Add's On Plugin"
+msgid "Bookmark Settings"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Post Split Settings"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Ads Settings"
 msgstr ""
 
 #: lib/framework/assets/js/dashboard.js:2
@@ -9153,7 +9222,15 @@ msgid "Version %s"
 msgstr ""
 
 #: lib/framework/assets/js/dashboard.js:2
-msgid "Downloaded"
+msgid "All Plugins"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "Free Plugins"
+msgstr ""
+
+#: lib/framework/assets/js/dashboard.js:2
+msgid "PRO Plugins"
 msgstr ""
 
 #: lib/framework/assets/js/dashboard.js:2
@@ -9266,6 +9343,18 @@ msgstr ""
 
 #: lib/framework/assets/js/notifications.js:2
 msgid "You are currently using lower version of WordPress, we recommend to update to WordPress 5.9 or higher. Or if you want to keep using lower version of WordPress, please install the latest version of Gutenberg"
+msgstr ""
+
+#: lib/framework/assets/js/notifications.js:2
+msgid "Frontend render mechanism changed"
+msgstr ""
+
+#: lib/framework/assets/js/notifications.js:2
+msgid "Gutenverse now stores generated inline style payloads in an internal cache so large pages do not need to rebuild block CSS on every request. To clear the cache, open Frontend Settings."
+msgstr ""
+
+#: lib/framework/assets/js/notifications.js:2
+msgid "Open Frontend Settings"
 msgstr ""
 
 #: lib/framework/assets/js/notifications.js:2
