@@ -2,21 +2,21 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 4.0.0\n"
+"Project-Id-Version: Gutenverse 4.0.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-12T05:45:31+00:00\n"
+"POT-Creation-Date: 2026-08-14T05:34:56+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
 
 #. Plugin Name of the plugin
-#: lib/framework/includes/class-dashboard.php:1119
-#: lib/framework/includes/class-dashboard.php:1120
+#: lib/framework/includes/class-dashboard.php:1131
+#: lib/framework/includes/class-dashboard.php:1132
 #: lib/framework/includes/class-frontend-toolbar.php:121
 #: assets/js/dashboard.js:2
 #: assets/js/wizard.js:2
@@ -209,11 +209,11 @@ msgstr ""
 msgid "Menu item"
 msgstr ""
 
-#: lib/framework/includes/block/class-block-abstract.php:332
+#: lib/framework/includes/block/class-block-abstract.php:359
 msgid "This content is password protected. To view it please enter this post password below:"
 msgstr ""
 
-#: lib/framework/includes/block/class-block-abstract.php:335
+#: lib/framework/includes/block/class-block-abstract.php:362
 msgid "Enter"
 msgstr ""
 
@@ -249,33 +249,33 @@ msgstr ""
 msgid "by"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1140
-#: lib/framework/includes/class-dashboard.php:1141
+#: lib/framework/includes/class-dashboard.php:1152
+#: lib/framework/includes/class-dashboard.php:1153
 #: lib/framework/includes/class-frontend-toolbar.php:219
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Dashboard"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1150
-#: lib/framework/includes/class-dashboard.php:1151
+#: lib/framework/includes/class-dashboard.php:1162
+#: lib/framework/includes/class-dashboard.php:1163
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Ecosystem"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1160
-#: lib/framework/includes/class-dashboard.php:1161
+#: lib/framework/includes/class-dashboard.php:1172
+#: lib/framework/includes/class-dashboard.php:1173
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Blocks"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1171
-#: lib/framework/includes/class-dashboard.php:1172
+#: lib/framework/includes/class-dashboard.php:1183
+#: lib/framework/includes/class-dashboard.php:1184
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Theme List"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1182
-#: lib/framework/includes/class-dashboard.php:1183
+#: lib/framework/includes/class-dashboard.php:1194
+#: lib/framework/includes/class-dashboard.php:1195
 #: lib/framework/includes/class-frontend-toolbar.php:237
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
@@ -283,22 +283,22 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1192
-#: lib/framework/includes/class-dashboard.php:1193
+#: lib/framework/includes/class-dashboard.php:1204
+#: lib/framework/includes/class-dashboard.php:1205
 #: lib/framework/includes/class-frontend-toolbar.php:246
 #: lib/framework/assets/js/dashboard.js:2
 msgid "System Status"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1202
-#: lib/framework/includes/class-dashboard.php:1203
+#: lib/framework/includes/class-dashboard.php:1214
+#: lib/framework/includes/class-dashboard.php:1215
 #: lib/framework/includes/class-frontend-toolbar.php:255
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Update Notice"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1213
-#: lib/framework/includes/class-dashboard.php:1214
+#: lib/framework/includes/class-dashboard.php:1225
+#: lib/framework/includes/class-dashboard.php:1226
 #: lib/framework/includes/class-frontend-toolbar.php:198
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Upgrade to PRO"
