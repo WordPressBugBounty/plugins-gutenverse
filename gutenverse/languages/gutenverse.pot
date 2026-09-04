@@ -2,21 +2,21 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 4.0.6\n"
+"Project-Id-Version: Gutenverse 4.0.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-31T05:21:35+00:00\n"
+"POT-Creation-Date: 2026-09-04T02:42:29+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
 
 #. Plugin Name of the plugin
-#: lib/framework/includes/class-dashboard.php:1151
-#: lib/framework/includes/class-dashboard.php:1152
+#: lib/framework/includes/class-dashboard.php:1302
+#: lib/framework/includes/class-dashboard.php:1303
 #: lib/framework/includes/class-frontend-toolbar.php:121
 #: assets/js/dashboard.js:2
 #: assets/js/wizard.js:2
@@ -119,10 +119,10 @@ msgstr ""
 #: includes/class-api.php:106
 #: includes/class-api.php:156
 #: includes/class-api.php:171
-#: lib/framework/helper.php:1907
-#: lib/framework/helper.php:1926
-#: lib/framework/helper.php:1945
-#: lib/framework/helper.php:1964
+#: lib/framework/helper.php:1941
+#: lib/framework/helper.php:1960
+#: lib/framework/helper.php:1979
+#: lib/framework/helper.php:1998
 msgid "Forbidden Access"
 msgstr ""
 
@@ -201,11 +201,11 @@ msgid "Access denied"
 msgstr ""
 
 #. translators: 1: Time from now.
-#: lib/framework/helper.php:818
+#: lib/framework/helper.php:852
 msgid "%s ago"
 msgstr ""
 
-#: lib/framework/helper.php:1357
+#: lib/framework/helper.php:1391
 msgid "Menu item"
 msgstr ""
 
@@ -238,44 +238,52 @@ msgstr ""
 msgid "Gutenverse Wrapper"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:364
-#: lib/framework/includes/class-dashboard.php:366
-#: lib/framework/includes/class-dashboard.php:367
+#: lib/framework/includes/class-dashboard.php:333
+msgid "Gutenverse event banner"
+msgstr ""
+
+#: lib/framework/includes/class-dashboard.php:336
+msgid "Dismiss this notice."
+msgstr ""
+
+#: lib/framework/includes/class-dashboard.php:511
+#: lib/framework/includes/class-dashboard.php:513
+#: lib/framework/includes/class-dashboard.php:514
 msgid "unknown"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:369
+#: lib/framework/includes/class-dashboard.php:516
 #: lib/framework/assets/js/dashboard.js:2
 msgid "by"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1172
-#: lib/framework/includes/class-dashboard.php:1173
+#: lib/framework/includes/class-dashboard.php:1323
+#: lib/framework/includes/class-dashboard.php:1324
 #: lib/framework/includes/class-frontend-toolbar.php:219
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Dashboard"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1182
-#: lib/framework/includes/class-dashboard.php:1183
+#: lib/framework/includes/class-dashboard.php:1333
+#: lib/framework/includes/class-dashboard.php:1334
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Ecosystem"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1192
-#: lib/framework/includes/class-dashboard.php:1193
+#: lib/framework/includes/class-dashboard.php:1343
+#: lib/framework/includes/class-dashboard.php:1344
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Blocks"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1203
-#: lib/framework/includes/class-dashboard.php:1204
+#: lib/framework/includes/class-dashboard.php:1354
+#: lib/framework/includes/class-dashboard.php:1355
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Theme List"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1214
-#: lib/framework/includes/class-dashboard.php:1215
+#: lib/framework/includes/class-dashboard.php:1365
+#: lib/framework/includes/class-dashboard.php:1366
 #: lib/framework/includes/class-frontend-toolbar.php:237
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
@@ -283,22 +291,22 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1224
-#: lib/framework/includes/class-dashboard.php:1225
+#: lib/framework/includes/class-dashboard.php:1375
+#: lib/framework/includes/class-dashboard.php:1376
 #: lib/framework/includes/class-frontend-toolbar.php:246
 #: lib/framework/assets/js/dashboard.js:2
 msgid "System Status"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1234
-#: lib/framework/includes/class-dashboard.php:1235
+#: lib/framework/includes/class-dashboard.php:1385
+#: lib/framework/includes/class-dashboard.php:1386
 #: lib/framework/includes/class-frontend-toolbar.php:255
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Update Notice"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1245
-#: lib/framework/includes/class-dashboard.php:1246
+#: lib/framework/includes/class-dashboard.php:1396
+#: lib/framework/includes/class-dashboard.php:1397
 #: lib/framework/includes/class-frontend-toolbar.php:198
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Upgrade to PRO"
