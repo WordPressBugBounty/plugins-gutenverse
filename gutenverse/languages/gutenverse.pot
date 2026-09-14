@@ -2,21 +2,21 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 4.0.7\n"
+"Project-Id-Version: Gutenverse 4.0.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-04T02:42:29+00:00\n"
+"POT-Creation-Date: 2026-09-14T01:52:28+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
 
 #. Plugin Name of the plugin
-#: lib/framework/includes/class-dashboard.php:1302
-#: lib/framework/includes/class-dashboard.php:1303
+#: lib/framework/includes/class-dashboard.php:817
+#: lib/framework/includes/class-dashboard.php:818
 #: lib/framework/includes/class-frontend-toolbar.php:121
 #: assets/js/dashboard.js:2
 #: assets/js/wizard.js:2
@@ -119,10 +119,10 @@ msgstr ""
 #: includes/class-api.php:106
 #: includes/class-api.php:156
 #: includes/class-api.php:171
-#: lib/framework/helper.php:1941
-#: lib/framework/helper.php:1960
-#: lib/framework/helper.php:1979
-#: lib/framework/helper.php:1998
+#: lib/framework/helper.php:2078
+#: lib/framework/helper.php:2097
+#: lib/framework/helper.php:2116
+#: lib/framework/helper.php:2135
 msgid "Forbidden Access"
 msgstr ""
 
@@ -201,11 +201,11 @@ msgid "Access denied"
 msgstr ""
 
 #. translators: 1: Time from now.
-#: lib/framework/helper.php:852
+#: lib/framework/helper.php:989
 msgid "%s ago"
 msgstr ""
 
-#: lib/framework/helper.php:1391
+#: lib/framework/helper.php:1528
 msgid "Menu item"
 msgstr ""
 
@@ -227,8 +227,8 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: lib/framework/includes/class-api.php:1574
-#: lib/framework/includes/class-api.php:1727
+#: lib/framework/includes/class-api.php:1577
+#: lib/framework/includes/class-api.php:1730
 #: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "All"
@@ -238,52 +238,52 @@ msgstr ""
 msgid "Gutenverse Wrapper"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:333
+#: lib/framework/includes/class-dashboard.php:381
 msgid "Gutenverse event banner"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:336
+#: lib/framework/includes/class-dashboard.php:384
 msgid "Dismiss this notice."
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:511
-#: lib/framework/includes/class-dashboard.php:513
-#: lib/framework/includes/class-dashboard.php:514
+#: lib/framework/includes/class-dashboard.php:561
+#: lib/framework/includes/class-dashboard.php:563
+#: lib/framework/includes/class-dashboard.php:564
 msgid "unknown"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:516
+#: lib/framework/includes/class-dashboard.php:566
 #: lib/framework/assets/js/dashboard.js:2
 msgid "by"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1323
-#: lib/framework/includes/class-dashboard.php:1324
+#: lib/framework/includes/class-dashboard.php:838
+#: lib/framework/includes/class-dashboard.php:839
 #: lib/framework/includes/class-frontend-toolbar.php:219
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Dashboard"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1333
-#: lib/framework/includes/class-dashboard.php:1334
+#: lib/framework/includes/class-dashboard.php:848
+#: lib/framework/includes/class-dashboard.php:849
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Ecosystem"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1343
-#: lib/framework/includes/class-dashboard.php:1344
+#: lib/framework/includes/class-dashboard.php:858
+#: lib/framework/includes/class-dashboard.php:859
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Blocks"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1354
-#: lib/framework/includes/class-dashboard.php:1355
+#: lib/framework/includes/class-dashboard.php:869
+#: lib/framework/includes/class-dashboard.php:870
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Theme List"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1365
-#: lib/framework/includes/class-dashboard.php:1366
+#: lib/framework/includes/class-dashboard.php:880
+#: lib/framework/includes/class-dashboard.php:881
 #: lib/framework/includes/class-frontend-toolbar.php:237
 #: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
@@ -291,22 +291,22 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1375
-#: lib/framework/includes/class-dashboard.php:1376
+#: lib/framework/includes/class-dashboard.php:890
+#: lib/framework/includes/class-dashboard.php:891
 #: lib/framework/includes/class-frontend-toolbar.php:246
 #: lib/framework/assets/js/dashboard.js:2
 msgid "System Status"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1385
-#: lib/framework/includes/class-dashboard.php:1386
+#: lib/framework/includes/class-dashboard.php:900
+#: lib/framework/includes/class-dashboard.php:901
 #: lib/framework/includes/class-frontend-toolbar.php:255
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Update Notice"
 msgstr ""
 
-#: lib/framework/includes/class-dashboard.php:1396
-#: lib/framework/includes/class-dashboard.php:1397
+#: lib/framework/includes/class-dashboard.php:911
+#: lib/framework/includes/class-dashboard.php:912
 #: lib/framework/includes/class-frontend-toolbar.php:198
 #: lib/framework/assets/js/dashboard.js:2
 msgid "Upgrade to PRO"
@@ -4510,6 +4510,22 @@ msgid "Twitter X"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Grow Item"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Allow this share item to fill available horizontal space."
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Item Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Button Background Color"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Icon Background Color"
 msgstr ""
 
@@ -4686,7 +4702,51 @@ msgid "whatsapp"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Button Layout"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Split Icon & Text"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Solid Button"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Primary Button Width"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Apply Width to First Buttons"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Button Height"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Button Content Alignment"
+msgstr ""
+
+#: assets/js/blocks.js:2
 msgid "Orientation"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Layout Mode"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Stretch Bar"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Enable More Button"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Visible Buttons Before More"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -4852,10 +4912,6 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Content Spacing Horizontal"
-msgstr ""
-
-#: assets/js/blocks.js:2
-msgid "Item Width"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -7480,6 +7536,26 @@ msgid "Suggested max. file size : 1MB"
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
+msgid "Open in new tab"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Mark as nofollow"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Mark as sponsored / affiliate"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Mark as user-generated content"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Use dynamic link"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
 msgid "Use Dynamic Link"
 msgstr ""
 
@@ -8107,6 +8183,10 @@ msgstr ""
 
 #: lib/framework/assets/js/core.js:2
 msgid "Add Item"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Loading..."
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
