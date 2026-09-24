@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 4.0.8\n"
+"Project-Id-Version: Gutenverse 4.0.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-14T01:52:28+00:00\n"
+"POT-Creation-Date: 2026-09-24T02:54:30+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: lib/framework/includes/class-dashboard.php:817
 #: lib/framework/includes/class-dashboard.php:818
 #: lib/framework/includes/class-frontend-toolbar.php:121
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 #: assets/js/wizard.js:2
 #: lib/framework/assets/js/components.js:2
 #: lib/framework/assets/js/dashboard.js:2
@@ -2984,6 +2984,15 @@ msgid "Logo Fit"
 msgstr ""
 
 #: assets/js/blocks.js:2
+msgid "Menu Items"
+msgstr ""
+
+#: assets/js/blocks.js:2
+#: lib/framework/assets/js/blocks.js:2
+msgid "Align Items"
+msgstr ""
+
+#: assets/js/blocks.js:2
 #: lib/framework/assets/js/core.js:2
 msgid "No Option"
 msgstr ""
@@ -3041,7 +3050,7 @@ msgid "Hamburger Style"
 msgstr ""
 
 #: assets/js/blocks.js:2
-msgid "Mobile Menu Logo"
+msgid "Mobile Menu Style"
 msgstr ""
 
 #: assets/js/blocks.js:2
@@ -5368,96 +5377,96 @@ msgstr ""
 msgid "this article"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Version 4.0.0"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Faster Frontend Experience"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Gutenverse 4.0.0 improves asset loading, frontend cache handling, and mobile background behavior to help pages load more efficiently."
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Better Icon Loading"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Icon can now be converted to optimized SVG output, reducing dependency on frontend icon font loading."
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Enjoy Using Gutenverse?"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Hi! It’s been a while since you used Gutenverse, if Gutenverse has helped your site, we’d love it if you left us a rating — Thanks a lot!"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Yes, You deserve ★★★★★"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "New Gutenverse Setup!"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "We've made some changes on v2.0.0:"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "We've separated the "
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Gutenverse Form"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "from our main plugin to speed up Gutenverse and offer more flexibility. If you were using form before, please install & activate the form plugin."
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Fonticons are now loaded locally. You can find this option and download the font in the Gutenverse Settings menu."
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Setup Now!"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 #: lib/framework/assets/js/notifications.js:2
 msgid "Gutenverse Upgrade Notice!"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Go to theme page"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Install & Activate Gutenverse Form!"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Done!"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "Gutenverse Form Plugin Not Installed!"
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "To use all the features and capabilities of Gutenverse Form, you need to "
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "install and activate "
 msgstr ""
 
-#: assets/js/dashboard.js:2
+#: assets/js/dashboard.js:1
 msgid "the Gutenverse Form plugin to access all functionalities and enhance your experience."
 msgstr ""
 
@@ -5685,10 +5694,6 @@ msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
 msgid "Justify Content"
-msgstr ""
-
-#: lib/framework/assets/js/blocks.js:2
-msgid "Align Items"
 msgstr ""
 
 #: lib/framework/assets/js/blocks.js:2
