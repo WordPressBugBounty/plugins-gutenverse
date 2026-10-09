@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 4.0.10\n"
+"Project-Id-Version: Gutenverse 4.0.12\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-06T05:53:09+00:00\n"
+"POT-Creation-Date: 2026-10-09T03:47:57+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
@@ -119,10 +119,10 @@ msgstr ""
 #: includes/class-api.php:106
 #: includes/class-api.php:156
 #: includes/class-api.php:171
-#: lib/framework/helper.php:2116
-#: lib/framework/helper.php:2135
-#: lib/framework/helper.php:2154
-#: lib/framework/helper.php:2173
+#: lib/framework/helper.php:2120
+#: lib/framework/helper.php:2139
+#: lib/framework/helper.php:2158
+#: lib/framework/helper.php:2177
 msgid "Forbidden Access"
 msgstr ""
 
@@ -201,11 +201,11 @@ msgid "Access denied"
 msgstr ""
 
 #. translators: 1: Time from now.
-#: lib/framework/helper.php:989
+#: lib/framework/helper.php:993
 msgid "%s ago"
 msgstr ""
 
-#: lib/framework/helper.php:1566
+#: lib/framework/helper.php:1570
 msgid "Menu item"
 msgstr ""
 
@@ -4073,6 +4073,10 @@ msgstr ""
 
 #: assets/js/blocks.js:2
 msgid "Fill"
+msgstr ""
+
+#: assets/js/blocks.js:2
+msgid "Use Fixed Height"
 msgstr ""
 
 #: assets/js/blocks.js:2
