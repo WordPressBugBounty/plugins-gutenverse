@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gutenverse 4.2.1\n"
+"Project-Id-Version: Gutenverse 4.2.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutenverse\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-30T05:57:38+00:00\n"
+"POT-Creation-Date: 2026-11-09T03:25:24+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: gutenverse\n"
@@ -219,11 +219,11 @@ msgstr ""
 msgid "Menu item"
 msgstr ""
 
-#: lib/framework/includes/block/class-block-abstract.php:363
+#: lib/framework/includes/block/class-block-abstract.php:372
 msgid "This content is password protected. To view it please enter this post password below:"
 msgstr ""
 
-#: lib/framework/includes/block/class-block-abstract.php:366
+#: lib/framework/includes/block/class-block-abstract.php:375
 msgid "Enter"
 msgstr ""
 
@@ -7990,6 +7990,18 @@ msgstr ""
 
 #: lib/framework/assets/js/core.js:2
 msgid "Background Image"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Use Featured Image Fallback"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Featured Image Fallback"
+msgstr ""
+
+#: lib/framework/assets/js/core.js:2
+msgid "Used when the post has no featured image."
 msgstr ""
 
 #: lib/framework/assets/js/core.js:2
